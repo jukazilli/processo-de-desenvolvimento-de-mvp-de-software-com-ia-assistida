@@ -370,4 +370,8 @@ O documento está maduro quando outro engenheiro ou agente consegue montar a too
 
 Ao mesmo tempo, o documento não deve tentar prever toda dependência futura. Bibliotecas especializadas podem ser acrescentadas quando um requisito real surgir, seguindo o mesmo processo de avaliação, aprovação e consistência documental.
 
+## Comparação e evidências
+
+Conferir pacote, origem, documentação e compatibilidade da versão. Separar capacidade publicada de comportamento comprovado no projeto e justificar dependências e alternativas rejeitadas. Consultar [pesquisa e benchmarking](../pesquisa-e-benchmarking.md) e [verificação com IA](../verificacao-com-ia.md). Reaproveitar evidências atuais suficientes e registrar lacunas relevantes.
+
 [Voltar ao guia](../../README.md)

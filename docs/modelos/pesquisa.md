@@ -16,6 +16,8 @@ title: "[Pesquisa] "
 
 (Critérios de comparação, alternativas relevantes, referências e experimento necessário. Registrar data e versão de informações técnicas mutáveis.)
 
+Quando houver comparação material, usar o registro de comparação adotado pelo projeto e apontar seu link nos resultados. Reaproveitar fonte existente que já contenha pergunta, critérios, alternativas, evidências e consequências; não manter cópias concorrentes.
+
 ## Critérios de conclusão
 
 - (Pergunta respondida com evidências, limitações e incertezas.)

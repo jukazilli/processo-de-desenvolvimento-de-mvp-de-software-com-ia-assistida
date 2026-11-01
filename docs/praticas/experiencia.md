@@ -312,4 +312,8 @@ Decisão de UI
 Componente do Design System
 ```
 
+## Comparação e evidências
+
+Ligar a escolha visual ou comportamental à tarefa, referência e hipótese que precisam de validação. Adaptar padrões preservando identidade e conferir estados e acessibilidade; não apresentar uma imagem como prova de uso. Consultar [pesquisa e benchmarking](../pesquisa-e-benchmarking.md) e [verificação com IA](../verificacao-com-ia.md). Reaproveitar evidências atuais suficientes e registrar lacunas relevantes.
+
 [Voltar ao guia](../../README.md)

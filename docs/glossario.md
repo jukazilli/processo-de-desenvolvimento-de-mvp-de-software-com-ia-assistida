@@ -36,6 +36,9 @@ Use o termo técnico quando ele ajuda a pesquisar ou conversar com a área. Na l
 | Habilidade — skill | Instruções e recursos reutilizáveis de uma ferramenta de IA, cuja disponibilidade deve ser confirmada |
 | Agente | Ferramenta de IA que executa uma responsabilidade com capacidades e limites definidos |
 | Registro de continuidade — checkpoint | Estado persistido para outra pessoa ou ferramenta retomar o trabalho |
+| Evidência | Fonte ou resultado observável que sustenta uma afirmação dentro de condições e limites |
+| Inferência | Conclusão derivada de informações, que precisa ser distinguida do que foi diretamente observado |
+| Estimativa | Projeção dependente de premissas; não equivale a medição ou custo realizado |
 | Comparação de referências — benchmarking | Análise estruturada de alternativas e práticas para adaptar ao contexto |
 | Benchmark de desempenho | Medição com condições declaradas; números públicos de outro ambiente não são medições do projeto |
 

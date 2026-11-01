@@ -16,6 +16,12 @@
 5. Atualizar documentação afetada e vínculos da Issue e da PR na mesma entrega. Registrar hipóteses e decisões novas como propostas até sua aprovação.
 6. Registrar resultados, erros e impedimentos. Se uma descoberta altera escopo ou decisão relevante, apresentar o impacto ao responsável antes de ampliar a mudança.
 
+## Pesquisa, comparação e verificação
+
+**Conferir o contrato e a implementação.** Comparar a proposta com código, componentes e padrões existentes e documentação da versão. Derivar testes de requisitos e riscos, incluindo falhas pertinentes. Revisão da própria IA não substitui execução nem uma conferência independente quando exigida pelo projeto.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - PR pequena e revisável, vinculada à Issue.

@@ -16,6 +16,12 @@
 5. Conferir erros, foco, teclado, legibilidade, contraste, redução de movimento quando aplicável e tamanhos de tela relevantes.
 6. Registrar referência aprovada, versão, estado e limites da evidência. Distinguir imagem gerada, arquivo mestre, prévia, protótipo e captura real.
 
+## Pesquisa, comparação e verificação
+
+**Comparar padrões de interface.** Examinar referências como GOV.UK Design System e IBM Carbon, considerando tarefa, hierarquia, estados e condições de uso. Adaptar à identidade própria e verificar critérios de acessibilidade. Não inferir conversão, desempenho ou aprovação a partir da aparência.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Telas e componentes com hierarquia e estados definidos.

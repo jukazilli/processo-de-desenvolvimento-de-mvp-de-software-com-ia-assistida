@@ -16,6 +16,12 @@
 5. Informar limites da camada gratuita e condições de cobrança. Contratação, upgrade ou recurso potencialmente cobrável exigem autorização explícita do responsável.
 6. Planejar a configuração por API, CLI, infraestrutura como código ou conector autorizado; usar automação de navegador ou instrução manual segura quando necessário.
 
+## Pesquisa, comparação e verificação
+
+**Comparar serviços e cenários de custo.** Conferir fontes oficiais atuais para runtime, plano, região, limites e cobrança. Explicitar uso, dados, tráfego e outras premissas pertinentes; estimativa não é fatura. Validar a integração importante no ambiente autorizado e revalidar condições antes de contratar.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Plano de ambientes e serviços compatíveis, com custos datados, limites e riscos.

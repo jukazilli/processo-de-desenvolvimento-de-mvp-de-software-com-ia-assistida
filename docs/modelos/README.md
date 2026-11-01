@@ -7,6 +7,7 @@ Os arquivos desta pasta são modelos reutilizáveis, não tarefas reais, aprova�
 | [Trabalho](issue.md) | Funcionalidade, design, infraestrutura ou documentação | Corpo de Issue |
 | [Bug](bug.md) | Comportamento observado diferente do esperado | Corpo de Issue; dados sensíveis em canal adequado |
 | [Pesquisa](pesquisa.md) | Pergunta ou comparação ainda sem solução aprovada | Corpo de Issue; resultados nos comentários |
+| [Comparação](comparacao.md) | Escolha relevante de produto, experiência, arquitetura, tecnologia ou infraestrutura | Comentário ou documento oficial vinculado à pesquisa/decisão |
 | [Índice da Issue](indice-da-issue.md) | Assunto com várias decisões, estados ou evidências | Corpo da Issue responsável, com links para o detalhe |
 | [Decisão](decisao.md) | Proposta, aprovação ou substituição de escolha relevante | Documento de decisão ou comentário declarado como fonte oficial |
 | [PR](pull-request.md) | Alteração revisável em arquivos | Descrição de PR |

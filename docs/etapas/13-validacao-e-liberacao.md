@@ -16,6 +16,12 @@
 5. Promover, sempre que possível, o mesmo artefato ou commit validado. Se o candidato mudar, revalidar as partes afetadas antes da liberação.
 6. Confirmar a versão em execução e sua saúde, atualizar os vínculos e registrar o que foi implementado, testado, validado e liberado.
 
+## Pesquisa, comparação e verificação
+
+**Validar o candidato e as condições.** Comparar o resultado observado aos critérios de aceite e risco. Registrar candidato, ambiente, dados, método e limites. Referências públicas e resultados de outro ambiente não comprovam segurança, acessibilidade, desempenho ou liberação deste candidato.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Relatório de evidências e decisões de aceite.

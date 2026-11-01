@@ -1,6 +1,6 @@
 # Referências para a reorganização
 
-> Fontes consultadas no planejamento de 31/10/2026. A aplicação detalhada por etapa será revisada em R4. Esta lista é apoio de pesquisa, não uma alegação de certificação ou conformidade integral do método.
+> Histórico de fontes do planejamento e de R3. O [catálogo corrente de pesquisa e verificação](../fontes-de-referencia.md) e a [reconciliação R4](reconciliacao-r4.md) registram a aplicação preparada em R4. Nenhuma lista equivale a certificação ou conformidade integral.
 
 | Fonte primária | Uso previsto | Limite de aplicação |
 | --- | --- | --- |
@@ -20,7 +20,7 @@
 | [Agile Alliance — Relato sobre incrementos verticais](https://agilealliance.org/resources/experience-reports/a-tale-of-slicing-and-imagination/) | Explicar entrega de valor que atravessa camadas da solução | É relato de experiência; não prescreve arquitetura nem distribuição de equipe |
 | [Scrum Guide — versão oficial](https://scrumguides.org/scrum-guide.html) | Conferir significados de incremento, objetivo e ciclo no contexto Scrum | Usar ideias isoladas não autoriza declarar adoção completa de Scrum |
 
-## Política de pesquisa a implementar em R4
+## Direção de pesquisa registrada no planejamento
 
 Cada comparação relevante deve registrar pergunta, alternativas, critérios, fontes, data de consulta, diferenças de contexto e consequências da escolha. Especificações, versões, APIs, limites e preços devem ser conferidos em documentação oficial atual. Uma citação só sustenta o que a fonte realmente informa.
 

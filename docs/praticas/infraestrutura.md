@@ -422,4 +422,8 @@ Se houver dúvida, tratar como potencialmente cobrável.
 
 O agente não pode contratar, fazer upgrade ou criar recurso que possa gerar cobrança sem informar finalidade, modelo de cobrança conhecido e obter aprovação humana explícita.
 
+## Comparação e evidências
+
+Conferir plano, região, runtime, limites e condições de cobrança em fontes oficiais atuais. Explicitar premissas e condições do experimento; a existência do plano não comprova configuração, integração ou recuperação funcionando. Consultar [pesquisa e benchmarking](../pesquisa-e-benchmarking.md) e [verificação com IA](../verificacao-com-ia.md). Reaproveitar evidências atuais suficientes e registrar lacunas relevantes.
+
 [Voltar ao guia](../../README.md)

@@ -60,6 +60,10 @@ Apontar conflito ou lacuna que ultrapasse a autorização: requisito ambíguo; n
 
 Continuar partes independentes que já tenham escopo e autorização suficientes. Não inventar aprovação nem usar um problema localizado para interromper trabalho independente sem necessidade.
 
+## Conferir fontes e resultados
+
+Aplicar [pesquisa e benchmarking](../pesquisa-e-benchmarking.md) nas escolhas materiais e [verificação com IA](../verificacao-com-ia.md) para conferir afirmações e execução. Distinguir fonte, observação, inferência, estimativa e proposta. Uma resposta convincente ou concordância entre agentes não substitui fonte verificada, decisão ou teste.
+
 ## Registro de continuidade
 
 Persistir na Issue e/ou documento de continuidade definido pelo projeto:
