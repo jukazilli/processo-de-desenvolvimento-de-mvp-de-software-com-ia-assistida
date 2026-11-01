@@ -3,6 +3,8 @@
 > **Natureza:** estudo de caso fictício  
 > **Objetivo:** demonstrar, de ponta a ponta, como a Engine é usada em uma conversa do ChatGPT, como os documentos são aprovados um a um e como ocorre o handoff final para o Codex.
 
+> **Exemplo da estrutura anterior — atualização prevista em R5.** Este estudo fictício ainda usa a numeração antiga e um backlog em arquivo. Para aplicar o método atual, começar pelo [guia principal](../../README.md) e sua etapa 01. Os documentos abaixo preservam uma demonstração histórica e não definem a organização nova.
+
 ## Cenário
 
 Uma consultoria oferece treinamentos para um software fictício chamado **OMEM**, um CRM integrado ao TOTVS Protheus. A consultoria quer criar uma plataforma web de aprendizagem — um AVA — para organizar cursos, turmas, materiais, avaliações, progresso e certificados dos clientes que treinam o OMEM.
