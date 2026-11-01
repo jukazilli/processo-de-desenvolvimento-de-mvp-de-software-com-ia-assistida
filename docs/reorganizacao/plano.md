@@ -112,3 +112,7 @@ Benchmarking não elimina erros de IA e não comprova adequação ao projeto. Pe
 - Percorrer os casos de entrada descritos acima usando os arquivos reais do guia.
 - Registrar a natureza de cada verificação. Uma revisão editorial ou simulação documental não equivale a validação por usuários externos, teste de software ou execução em ferramentas de terceiros.
 - Atualizar o checkpoint e a Issue; publicar uma PR com escopo e limitações compreensíveis sem esta conversa.
+
+## Situação de preparação após R5
+
+R1 a R5 foram preparadas em branches e PRs dependentes. O guia final inclui o [exemplo atualizado](../../examples/plataforma-de-cursos/README.md) e a [auditoria R5](reconciliacao-r5.md). Integração, revisão por leitores externos e adoção em ferramentas continuam separadas da preparação documental. A Issue #1 mantém o estado corrente.
