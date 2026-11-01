@@ -71,7 +71,7 @@ Vou usar o processo de desenvolvimento com IA assistida. [O usuário cola a chav
 
 ```text
 ENGINE_STATUS: ACTIVE
-SOURCE: jukazilli/processo-de-desenvolvimento-de-software-com-ia-assistida
+SOURCE: jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida
 BRANCH: main
 COMMIT: <commit carregado na sessão>
 PROCESS_LOADED: complete
