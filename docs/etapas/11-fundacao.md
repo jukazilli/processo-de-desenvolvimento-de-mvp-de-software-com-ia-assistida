@@ -16,6 +16,12 @@
 5. Encaminhar login, MFA, CAPTCHA, aceite legal e ações sensíveis ao humano pelo mecanismo da ferramenta. Se houver bloqueio, registrar instruções seguras para conclusão.
 6. Executar verificações básicas do ambiente, migrações, acesso, implantação, observabilidade e recuperação conforme aplicável; registrar resultado e limitações.
 
+## Pesquisa, comparação e verificação
+
+**Comprovar a preparação.** Conferir os comandos e configurações na documentação da versão escolhida. Executar apenas no ambiente e escopo autorizados; guardar resultados das verificações. Um guia, checklist ou comando gerado não comprova que os serviços foram configurados.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Ambiente configurado e verificável, com instruções reproduzíveis.

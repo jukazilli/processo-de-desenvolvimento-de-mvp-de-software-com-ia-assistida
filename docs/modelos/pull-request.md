@@ -12,7 +12,7 @@
 
 ## Verificação
 
-(Critérios de aceite conferidos, comandos/condições, resultados e evidências. Separar verificações não executadas e limitações. Para documentação, conferir coerência, links, numeração e fontes.)
+(Critérios de aceite conferidos, fontes/versões de escolhas técnicas relevantes, comandos/condições, resultados e evidências. Separar verificações não executadas e limitações. Para documentação, conferir coerência, links, numeração e fontes.)
 
 ## Consolidação e liberação
 

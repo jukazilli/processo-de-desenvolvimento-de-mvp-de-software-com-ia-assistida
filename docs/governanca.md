@@ -44,6 +44,10 @@ Quando uma decisão mudar, publicar um novo registro que indique o que substitui
 
 Assets devem ter caminho e commit ou versão identificáveis, com natureza da evidência: arquivo mestre, prévia, imagem gerada, protótipo ou captura real. Se o arquivo não estiver acessível, registrar a ausência e não alegar conferência visual.
 
+## Evidência para decisões
+
+Uma comparação pode apoiar a proposta; ela não comprova a escolha funcionando. Apontar para a [pesquisa e comparação](pesquisa-e-benchmarking.md) e para a evidência pertinente ao contrato. O registro de comparação ou o documento já existente mantém o detalhe; a decisão identifica o que usa, o que permanece incerto e quando deve ser revista. Aplicar a [verificação com IA](verificacao-com-ia.md) antes de apresentar uma afirmação relevante como comprovada.
+
 ## Conflitos
 
 Apontar as fontes, versões e escopos em conflito. Consultar quem tem autoridade no assunto. Enquanto a resolução estiver pendente, manter o conflito visível e trabalhar apenas nas partes independentes já autorizadas.

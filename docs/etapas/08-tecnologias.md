@@ -16,6 +16,12 @@
 5. Registrar política de versões e compatibilidade; o arquivo de dependências travadas — lockfile — registra o conjunto exato instalado.
 6. Reabrir decisões afetadas se uma tecnologia exigir mudança arquitetural; não adaptar documentos silenciosamente para justificar uma preferência.
 
+## Pesquisa, comparação e verificação
+
+**Conferir existência, versão e compatibilidade.** Consultar documentação oficial e a origem das dependências, versões, suporte, manutenção e licença. Conferir pacote e responsável antes de instalar. Uma API ou nome plausível sugerido por IA não é evidência de existência, legitimidade ou compatibilidade.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Conjunto de tecnologias aprovado e justificado.

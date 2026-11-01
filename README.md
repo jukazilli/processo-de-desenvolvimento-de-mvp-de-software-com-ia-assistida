@@ -4,7 +4,7 @@ Um guia para transformar ideias ou materiais existentes em software compreensív
 
 O processo atende profissionais técnicos que precisam de um caminho claro entre objetivo, requisitos, experiência, arquitetura, tecnologias, infraestrutura e entrega. O produto construído pode ter ou não funcionalidades de IA.
 
-> **Revisão R3:** esta branch contém a entrada, as etapas, a governança incremental e os modelos operacionais. A comparação de referências será aprofundada em R4 e os exemplos completos em R5. [Acompanhar a reorganização](docs/reorganizacao/README.md).
+> **Revisão R4:** esta branch contém etapas, governança, modelos, benchmarking e controles de verificação com IA. Os exemplos completos e a revisão final serão tratados em R5. [Acompanhar a reorganização](docs/reorganizacao/README.md).
 
 ## Comece pelo que você já tem
 
@@ -63,7 +63,9 @@ Os procedimentos estão nos guias de [governança incremental](docs/governanca.m
 - [Engenharia e arquitetura](docs/praticas/arquitetura.md): propriedades, estrutura e limites.
 - [Tecnologias](docs/praticas/tecnologias.md): alternativas, compatibilidade e regras de uso.
 - [Infraestrutura](docs/praticas/infraestrutura.md): serviços, custo, acesso e preparação.
-- [Fontes de referência](docs/reorganizacao/referencias.md): base da revisão; adaptação detalhada por etapa em R4.
+- [Pesquisa e benchmarking](docs/pesquisa-e-benchmarking.md): como comparar referências e validar o que elas não comprovam.
+- [Verificação com IA](docs/verificacao-com-ia.md): fontes, hipóteses, código e execução com evidência.
+- [Fontes de referência](docs/fontes-de-referencia.md): base consultada, versões e limites de uso.
 - [Exemplo da estrutura anterior](examples/ava-omem/README.md): estudo fictício em atualização para R5, com numeração e operação ainda antigas.
 
 ## Como avaliar uma entrega

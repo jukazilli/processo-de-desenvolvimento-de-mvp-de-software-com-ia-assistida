@@ -632,4 +632,8 @@ Selecionar os serviços e ambientes capazes de executar a stack aprovada com seg
 custo e operação compatíveis com o projeto.
 ```
 
+## Comparação e evidências
+
+Conferir documentação da versão e código local antes de criar solução. Uma dependência plausível pode ser inadequada ou ter origem não conferida; testes precisam responder ao contrato e às falhas pertinentes, não só repetir a implementação. Consultar [pesquisa e benchmarking](../pesquisa-e-benchmarking.md) e [verificação com IA](../verificacao-com-ia.md). Reaproveitar evidências atuais suficientes e registrar lacunas relevantes.
+
 [Voltar ao guia](../../README.md)

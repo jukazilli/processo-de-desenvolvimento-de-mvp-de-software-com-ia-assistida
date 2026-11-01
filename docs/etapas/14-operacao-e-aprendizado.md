@@ -16,6 +16,12 @@
 5. Atualizar decisões aprovadas, documentação técnica, guias operacionais e estado do trabalho. Preservar a decisão anterior e a justificativa de sua substituição.
 6. Reavaliar prioridades, referências e hipóteses à luz das evidências; planejar o próximo ciclo e registrar a continuidade.
 
+## Pesquisa, comparação e verificação
+
+**Comparar resultados reais.** Comparar métricas e feedback à base e às condições do próprio produto. Separar causa confirmada, hipótese e projeção. Mudanças de requisito, versão, custo, volume ou evidência de uso podem exigir revisão das escolhas e referências anteriores.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Issues de evolução e prevenção, com evidências e prioridades.

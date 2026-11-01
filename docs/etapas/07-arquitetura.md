@@ -16,6 +16,12 @@
 5. Transformar limites importantes em regras verificáveis quando possível: importações, acesso a dados, autorização e separação entre cliente e servidor.
 6. Produzir restrições para a escolha de tecnologias e necessidades para infraestrutura, sem escolher padrões por preferência do agente.
 
+## Pesquisa, comparação e verificação
+
+**Comparar soluções arquiteturais.** Avaliar alternativas contra restrições de escala, dados, segurança, equipe e operação. Registrar consequências e condições para reavaliar. ADR ajuda a registrar a decisão e C4 a comunicar a estrutura; nenhum deles escolhe automaticamente o padrão adequado.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Visão da solução e limites claros.

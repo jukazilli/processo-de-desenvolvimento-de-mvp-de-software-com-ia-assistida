@@ -20,6 +20,12 @@
 
 Definir as autoridades e responsabilidades usando o [guia de governança](../governanca.md). Aproveitar instruções existentes; o [modelo para agentes](../modelos/instrucoes-para-agentes.md) orienta uma adaptação revisável e a conferência no ambiente de destino. A instalação não é presumida.
 
+## Pesquisa, comparação e verificação
+
+**Conferir materiais existentes.** Comparar os materiais ao objetivo atual e conferir versão, aprovação e lacunas. A existência de documento, tela ou código não comprova a decisão de produto nem exige refazer tudo. Usar evidências internas suficientes e registrar apenas as lacunas relevantes.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Inventário curto e acessível dos materiais.

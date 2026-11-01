@@ -16,6 +16,12 @@
 5. Validar dúvidas de interação com pesquisa, protótipo ou teste apropriado. Uma imagem não comprova que o fluxo funciona.
 6. Separar o que foi observado, proposto, aprovado ou ainda não validado. Registrar casos de aceitação e dúvidas para UI e engenharia.
 
+## Pesquisa, comparação e verificação
+
+**Comparar jornadas e validar hipóteses.** Comparar tarefas, contextos, estados de falha e retomada em referências reais. Adaptar padrões ao público e conferir as hipóteses importantes por pesquisa ou protótipo. Uma sequência de imagens não comprova funcionamento ou acessibilidade.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Princípios de experiência e jornadas com estados e exceções.

@@ -380,4 +380,8 @@ Arquitetura define **o que tecnicamente precisamos e quais fronteiras devem exis
 
 O registro de qualidade e arquitetura está maduro quando outra IA consegue lê-lo e compreender o modelo arquitetural, o tipo de repositório, as fronteiras, a intenção dos módulos, os atributos de qualidade e os critérios que a stack deverá satisfazer sem escolher tecnologias por preferência pessoal.
 
+## Comparação e evidências
+
+Comparar alternativas com restrições e consequências. Registrar limites e verificações, sem transformar a arquitetura de uma empresa de contexto diferente em obrigação para o projeto. Consultar [pesquisa e benchmarking](../pesquisa-e-benchmarking.md) e [verificação com IA](../verificacao-com-ia.md). Reaproveitar evidências atuais suficientes e registrar lacunas relevantes.
+
 [Voltar ao guia](../../README.md)

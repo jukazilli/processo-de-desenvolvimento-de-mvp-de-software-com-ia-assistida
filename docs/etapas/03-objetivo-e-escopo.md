@@ -17,6 +17,12 @@
 6. Definir critérios de sucesso e como serão observados. Não apresentar projeções ou metas como resultados medidos.
 7. Submeter as decisões relevantes ao responsável humano, ajustar o mesmo material e registrar a versão aprovada.
 
+## Pesquisa, comparação e verificação
+
+**Conferir proposta e escopo.** Comparar formas de atender ao objetivo com valor, restrições e riscos claros. Separar requisitos aprovados, inferências e metas. Consultar o responsável sobre lacunas; não promover uma recomendação de IA a regra de negócio.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Briefing ou documento equivalente com objetivo, proposta, escopo e limites.

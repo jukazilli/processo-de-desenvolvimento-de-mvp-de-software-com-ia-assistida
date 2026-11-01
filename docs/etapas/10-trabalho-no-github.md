@@ -20,6 +20,12 @@
 
 Consultar o [guia de operação no GitHub](../trabalho-no-github.md) para status, hierarquia, prioridades e automações. Usar os [modelos](../modelos/README.md) de trabalho, bug, pesquisa e índice da Issue conforme o caso. O [guia de governança](../governanca.md) define consolidação e conclusão por escopo.
 
+## Pesquisa, comparação e verificação
+
+**Conferir a operação real.** Comparar o fluxo necessário à estrutura e às capacidades realmente disponíveis no GitHub. Preferir reaproveitar o que funciona. Verificar vínculos e efeitos de automações; rótulo, fechamento ou merge não comprova a conclusão do escopo.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Fila priorizada de Issues com escopo e critérios suficientes.

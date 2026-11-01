@@ -19,6 +19,8 @@ Conferir objetivo, escopo, responsável pelo aceite, decisões vigentes, fontes,
 
 Registrar o handoff na Issue responsável ou num documento de continuidade apontado por ela. Evitar dois registros ativos editados em paralelo. Em cada retomada, conferir o estado atual antes de confiar no resumo anterior.
 
+Para escolhas relevantes, apontar a fonte, versão, afirmação sustentada, verificação e limite, conforme a [verificação com IA](verificacao-com-ia.md). Uma referência citada ou recomendação de outro agente não deve chegar ao próximo executor como fato ou execução já comprovados.
+
 ## Ao receber
 
 1. Ler a tarefa, o handoff e as instruções aplicáveis. Conferir repositório, branch, versões e trabalho não integrado antes de editar.

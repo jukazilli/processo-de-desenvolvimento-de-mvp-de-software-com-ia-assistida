@@ -14,6 +14,8 @@ Manter linguagem direta para leitores técnicos sem contexto prévio. Separar et
 
 Manter uma fonte oficial por assunto e Issues como fila. Documentação, estado operacional, aprovação e evidência de execução são informações diferentes. Não alegar validação por usuários, instalação de habilidades, configuração de Projects ou execução de software sem prova correspondente.
 
+Ao acrescentar afirmação técnica material, consultar fonte primária apropriada, identificar versão/condições e registrar o limite do que foi conferido. Seguir `docs/pesquisa-e-benchmarking.md` e `docs/verificacao-com-ia.md`. Comparação e revisão documental não devem ser apresentadas como experimento ou validação externa.
+
 ## Verificar e transferir
 
 Conferir coerência com as regras existentes, navegação e links relativos, numeração, termos, modelos e exemplos afetados. Para templates, verificar formato e instruções de adaptação. A verificação documental não comprova funcionamento da interface do GitHub ou adoção em outras ferramentas.

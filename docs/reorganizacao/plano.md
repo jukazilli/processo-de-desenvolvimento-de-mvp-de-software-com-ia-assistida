@@ -73,7 +73,7 @@ Registrar a justificativa de uma etapa não aplicável. Identificação de fonte
 
 ## Modelo de documentação e trabalho
 
-Definir na etapa 01 onde cada informação tem autoridade. O modelo principal a desenvolver em R3 é:
+Definir na etapa 01 onde cada informação tem autoridade. O modelo principal detalhado em R3 é:
 
 | Informação | Local e responsabilidade |
 | --- | --- |
@@ -95,11 +95,11 @@ Cada etapa e Issue pronta para execução devem informar: objetivo e limites; re
 
 O executor confirma quais fontes leu e quais capacidades tem disponíveis. Ao terminar, registra arquivos/commits, ações realmente executadas, verificações realizadas e não realizadas, resultados, pendências e próximo passo. Um resumo de conversa serve como orientação, acompanhado das fontes oficiais acessíveis.
 
-O núcleo será escrito por responsabilidades. Guias específicos podem explicar como transferir contexto para ChatGPT, Codex, Gemini ou outra ferramenta, sem presumir que habilidades locais foram instaladas ou lidas automaticamente em outro ambiente. Não afirmar compatibilidade homologada sem evidência de execução.
+O núcleo foi organizado por responsabilidades. Guias específicos podem explicar como transferir contexto para ChatGPT, Codex, Gemini ou outra ferramenta, sem presumir que habilidades locais foram instaladas ou lidas automaticamente em outro ambiente. Não afirmar compatibilidade homologada sem evidência de execução.
 
 ## Pesquisa e comparação
 
-R4 deve incluir comparação proporcional ao impacto nas etapas de produto, UX/UI, engenharia, arquitetura, tecnologias e infraestrutura. Registrar pergunta, critérios, alternativas, fontes, contexto, limites, escolha, consequências e data. Usar fontes primárias para especificações técnicas, preços, limites, APIs e versões.
+A branch de R4 implementa comparação proporcional ao impacto nas etapas de produto, UX/UI, engenharia, arquitetura, tecnologias e infraestrutura. Registrar pergunta, critérios, alternativas, fontes, contexto, limites, escolha, consequências e data. Usar fontes primárias para especificações técnicas, preços, limites, APIs e versões.
 
 Benchmarking não elimina erros de IA e não comprova adequação ao projeto. Pesquisas, protótipos, testes, medições e revisão especializada complementam as referências. A priorização de revisão por risco é contextual; não alegar um ranking estatístico universal de etapas em que modelos alucinam mais.
 

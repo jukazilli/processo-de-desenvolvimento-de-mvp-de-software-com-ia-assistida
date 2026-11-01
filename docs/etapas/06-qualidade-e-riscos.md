@@ -16,6 +16,12 @@
 5. Planejar testes unitários, integração, contratos, segurança, acessibilidade e jornadas críticas proporcionalmente aos riscos. Correções recorrentes devem deixar prevenção verificável quando viável.
 6. Definir verificações obrigatórias, critério de conclusão e evidência esperada. Não adiar estratégia de teste para a etapa final.
 
+## Pesquisa, comparação e verificação
+
+**Escolher critérios de qualidade verificáveis.** Usar padrões pertinentes como WCAG, OWASP ASVS e NIST SSDF para formular requisitos e verificações, fixando versões e escopo. Não declarar conformidade por citar uma norma; ligar cada afirmação relevante à evidência que poderá comprová-la.
+
+Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
+
 ## O que registrar
 
 - Requisitos de qualidade identificados e verificáveis.

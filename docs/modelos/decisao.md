@@ -14,7 +14,7 @@
 
 ## Alternativas e consequências
 
-(Opções consideradas, critérios, motivos de escolha/rejeição, custos, riscos, limites e condição para reavaliar.)
+(Opções consideradas, critérios, motivos de escolha/rejeição, custos, riscos, limites e condição para reavaliar. Apontar para a comparação e fontes que sustentam a escolha, sem duplicar seu detalhe.)
 
 ## Decisão e escopo
 
