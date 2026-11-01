@@ -16,6 +16,10 @@
 5. Definir quando uma Issue está pronta para alguém assumir e o que prova a conclusão no seu escopo. Separar aprovação de design, implementação, testes e liberação.
 6. Manter vínculos entre requisitos, Issues, PRs, código, testes e evidências. Evitar um backlog editável em Markdown em paralelo ao GitHub.
 
+## Operação e modelos
+
+Consultar o [guia de operação no GitHub](../trabalho-no-github.md) para status, hierarquia, prioridades e automações. Usar os [modelos](../modelos/README.md) de trabalho, bug, pesquisa e índice da Issue conforme o caso. O [guia de governança](../governanca.md) define consolidação e conclusão por escopo.
+
 ## O que registrar
 
 - Fila priorizada de Issues com escopo e critérios suficientes.

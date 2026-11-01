@@ -1,6 +1,6 @@
 # Carregar, executar e retomar o processo com IA
 
-Este guia permite transferir contexto entre pessoas, conversas, máquinas e ferramentas. Os modelos específicos e a governança operacional serão aprofundados em R3. Uma habilidade local só pode ser usada quando a ferramenta confirmar sua disponibilidade e instruções.
+Este guia permite transferir contexto entre pessoas, conversas, máquinas e ferramentas. Consultar os procedimentos de [handoff](../handoffs.md), a [governança](../governanca.md) e os [modelos reutilizáveis](../modelos/README.md). Uma habilidade local só pode ser usada quando a ferramenta confirmar sua disponibilidade e instruções.
 
 ## Identificar fontes e versão
 
@@ -92,6 +92,6 @@ Projetos com prompts e habilidades existentes podem manter os identificadores ab
 | `NEXT_EXECUTABLE_ITEM`, `BLOCKERS`, `PROPOSED_FIRST_SLICE` | Próximo item pronto, impedimentos e entrega proposta. O nome antigo `PROPOSED_FIRST_SLICE` pode ser mantido como compatibilidade; no texto, descrever a entrega pequena e verificável |
 | `ENGINE_VERSION`, `PROJECT_STAGE`, `LAST_CANONICAL_DOCUMENT`, `NEXT_DOCUMENT`, `PROJECT_DOC_DESTINATION` | Campos opcionais do checkpoint: versão, etapa, último registro, próximo material necessário e destino autorizado |
 
-Verificar os consumidores antes de alterar esses rótulos, nomes de documentos ou automações locais. A revisão de integração com ferramentas pertence a R3; esta entrega não afirma que essas configurações externas foram atualizadas.
+Verificar os consumidores antes de alterar esses rótulos, nomes de documentos ou automações locais. Usar o procedimento de adaptação do [guia de handoffs](../handoffs.md) e verificar os consumidores no ambiente de destino; modelos publicados não comprovam configurações externas atualizadas.
 
 [Voltar ao guia](../../README.md)

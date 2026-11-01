@@ -1,6 +1,6 @@
 # Inventário de preservação
 
-> Estado: origem inventariada e estrutura transferida em R2. Ver os destinos reais e mudanças justificadas na [reconciliação R2](reconciliacao-r2.md). Revisão de governança, benchmarking e exemplos continua em R3–R5.
+> Estado: origem inventariada e estrutura transferida em R2. Ver os destinos reais e mudanças justificadas na [reconciliação R2](reconciliacao-r2.md). A governança operacional está preparada na [reconciliação R3](reconciliacao-r3.md); benchmarking e exemplos continuam em R4–R5.
 
 Origem fixada no commit [`12c87840bcb7779e3072eb717814a7bc28c623b8`](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/tree/12c87840bcb7779e3072eb717814a7bc28c623b8). O README tem 4.181 linhas lógicas, 28 grupos numerados e um grupo técnico principal sem número. Títulos dentro de blocos de exemplo não foram contados como seções reais.
 
@@ -381,6 +381,6 @@ Acrescentar uma linha por unidade revisada nas entregas seguintes. A PR deve apo
 | --- | --- | --- |
 | Título e propósito inicial | Redação editorial preparada em R1 | Título explícito e propósito genérico; conferir diff da PR |
 | Endereço de ativação no README e conversa fictícia | Correção preparada em R1 | Usar o endereço do repositório acessado; conferir ocorrências nas duas fontes |
-| Grupos principais e subtítulos | Estrutura transferida e regras reconciliadas em R2 | [Destinos reais e justificativas](reconciliacao-r2.md); aprofundamentos de R3–R4 ainda pendentes |
+| Grupos principais e subtítulos | Estrutura transferida e regras reconciliadas em R2 | [Destinos reais e justificativas](reconciliacao-r2.md); governança aprofundada em R3; comparação detalhada de R4 ainda pendente |
 | Exemplo fictício e seus documentos | Arquivos e blobs inventariados; revisão de conteúdo pendente | R5; atualização de nomes, sequência e operação do backlog |
 | Validação com leitores externos | Pendente | Registrar participantes, critérios e resultados apenas se ocorrer |

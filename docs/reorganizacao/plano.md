@@ -31,9 +31,9 @@ Usar linguagem direta. Apresentar a finalidade antes do termo técnico, definir 
 
 Cada entrega usa branch e PR próprias. Se depender de uma PR ainda não integrada, indicar a dependência e a base real, ou manter a continuidade no mesmo rascunho de forma explícita. Não abrir uma branch da `main` antiga e descartar trabalho não integrado.
 
-## Estrutura prevista do método
+## Estrutura do método
 
-Os nomes e caminhos foram implementados na branch de R2 e estão em revisão. Ver a [reconciliação](reconciliacao-r2.md) para os destinos reais. Esta tabela define a sequência e as responsabilidades; as etapas podem ser revisitadas conforme o aprendizado.
+Os nomes e caminhos foram implementados em R2 e estão em revisão; a operação de governança e os modelos foram preparados em R3. Ver as reconciliações [R2](reconciliacao-r2.md) e [R3](reconciliacao-r3.md) para os destinos reais. Esta tabela define a sequência e as responsabilidades; as etapas podem ser revisitadas conforme o aprendizado.
 
 | Etapa | Nome | Entrega esperada |
 | --- | --- | --- |

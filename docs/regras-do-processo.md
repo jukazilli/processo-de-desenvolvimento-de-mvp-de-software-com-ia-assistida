@@ -70,6 +70,6 @@ Antes de atuar, o executor confere fontes, versões, objetivo, decisões, depend
 
 Ao transferir, registrar: tarefa e estado real; fontes; branch e commit; decisões; resultado; arquivos e evidências; ações e verificações executadas ou pendentes; impedimentos; risco; próximo passo. Salvar o checkpoint no repositório ou na Issue responsável; um resumo de conversa sozinho não substitui fontes oficiais.
 
-Consultar o [guia de uso com IA](ferramentas/uso-com-ia.md) e o [glossário](glossario.md). Os modelos operacionais serão aprofundados em R3 e os critérios de pesquisa em R4.
+Consultar o [guia de uso com IA](ferramentas/uso-com-ia.md) e o [glossário](glossario.md). Consultar também os procedimentos de [governança](governanca.md), [trabalho no GitHub](trabalho-no-github.md), [handoffs](handoffs.md) e os [modelos](modelos/README.md). Os critérios de pesquisa serão aprofundados em R4.
 
 [Voltar ao guia](../README.md)

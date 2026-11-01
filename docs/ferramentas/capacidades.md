@@ -386,6 +386,6 @@ A metodologia define o comportamento esperado das capacidades, não a implementa
 
 Cada ambiente pode implementá-las por skills, agents, comandos ou checks equivalentes, desde que preserve o contrato de comportamento e os gates humanos definidos aqui.
 
-As descrições são requisitos de capacidade, não arquivos instaláveis. Conferir acesso, comandos e evidências antes de afirmar execução. A integração e os modelos de handoff serão aprofundados em R3.
+As descrições são requisitos de capacidade, não arquivos instaláveis. Conferir acesso, comandos e evidências antes de afirmar execução. Consultar os [handoffs](../handoffs.md) e o [modelo de instruções para agentes](../modelos/instrucoes-para-agentes.md) para adaptar e conferir a integração.
 
 [Voltar ao guia](../../README.md)

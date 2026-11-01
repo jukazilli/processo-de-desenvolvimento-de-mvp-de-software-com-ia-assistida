@@ -1,56 +1,54 @@
 # Continuidade da reorganização
 
-> Estado: R2 preparada para revisão, dependente de R1. Os aprofundamentos de R3–R5 continuam pendentes.
+> Estado: R3 preparada para revisão, dependente de R2. R4 e R5 continuam pendentes.
 
-Este checkpoint permite retomar pelo repositório quando a conversa, pessoa ou ferramenta mudar. A [Issue #1](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/issues/1) controla o trabalho. Esta pasta guarda plano, decisões de organização e evidências da migração.
+A [Issue #1](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/issues/1) acompanha o trabalho e aponta para as PRs e commits atuais. Este checkpoint guarda contexto de retomada, sem funcionar como outro backlog.
 
-## Versões e dependência
+## Versões e dependências
 
-- Repositório: `jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida`.
-- Origem histórica: [`12c87840bcb7779e3072eb717814a7bc28c623b8`](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/tree/12c87840bcb7779e3072eb717814a7bc28c623b8); README com blob `a5ac6dc11df6e9f4e5ecacd28173e536d2c476e9`.
-- R1: commit `667a7668ea1761879ae6e05bb7d4716d7ff74f79`, branch `docs/reorganizacao-r1-inventario`, [PR #2](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/pull/2), ainda aberta na conferência de início de R2.
-- R2: branch `docs/reorganizacao-r2-etapas`, criada do commit de R1. A PR usa a branch de R1 como base para isolar o recorte desta entrega.
-- A `main` foi conferida no início de R2 e permanecia no commit de origem. Conferir novamente antes de integrar ou criar a próxima branch.
+- Origem histórica: `12c87840bcb7779e3072eb717814a7bc28c623b8`; blob original do README `a5ac6dc11df6e9f4e5ecacd28173e536d2c476e9`.
+- R1: commit `667a7668ea1761879ae6e05bb7d4716d7ff74f79`, branch `docs/reorganizacao-r1-inventario`, PR #2.
+- R2: commit `085fc5f1ea05407e270c79a7fdb68ed45595f3c8`, branch `docs/reorganizacao-r2-etapas`, PR #3.
+- R3: branch `docs/reorganizacao-r3-governanca`, criada do commit de R2. Sua PR usa a branch de R2 como base enquanto a dependência estiver aberta.
+- No início de R3, as PRs #2 e #3 permaneciam abertas, sem merge, e a main no commit de origem. Conferir o estado atual e as bases antes de integrar ou iniciar a próxima branch.
 
-## Entregas preparadas
+## O que está preparado
 
-R1 fixou a origem, inventariou os 29 grupos principais e 223 títulos do README e os 15 arquivos de exemplo, propôs vocabulário e corrigiu referências editoriais e endereços de ativação. Os 16 conteúdos de origem foram conferidos com seus hashes Git. Os sete arquivos publicados na PR #2 foram relidos e coincidiram com os conteúdos preparados.
+R1 inventariou 29 grupos, 223 títulos e os 15 arquivos do estudo fictício, fixando fontes e blobs. R2 implementou a entrada e 14 etapas, regras comuns, glossário e capítulos técnicos, com destinos e mudanças justificados na [reconciliação R2](reconciliacao-r2.md).
 
-R2 implementa:
+R3 acrescenta:
 
-- [Entrada do guia](../../README.md), com caminhos para ideia, requisitos, telas, código e correção pequena.
-- Quatorze [etapas numeradas](../../README.md), cada uma com objetivo, entradas, atividades, registros, conclusão, reaproveitamento e transferência.
-- [Regras comuns](../regras-do-processo.md) e [glossário de leitura](../glossario.md).
-- Capítulos detalhados de [experiência](../praticas/experiencia.md), [desenvolvimento](../praticas/desenvolvimento.md), [arquitetura](../praticas/arquitetura.md), [tecnologias](../praticas/tecnologias.md) e [infraestrutura](../praticas/infraestrutura.md), preservando listas, exemplos e exceções da origem.
-- [Uso com IA](../ferramentas/uso-com-ia.md) e [capacidades de apoio](../ferramentas/capacidades.md), com versão, leitura verificável e compatibilidade de rótulos de relatório.
-- [Reconciliação dos 29 grupos](reconciliacao-r2.md), destinos reais e justificativas de mudanças.
-- Aviso no [estudo fictício anterior](../../examples/ava-omem/README.md), cuja atualização completa pertence a R5.
+- [Governança incremental](../governanca.md): responsabilidades, fonte por assunto, aprovação e vigência, substituições, documentação junto com a entrega e conclusão por escopo.
+- [Operação no GitHub](../trabalho-no-github.md): fila, hierarquia, tipos, prioridades, status, PRs, ciclos e limites das automações.
+- [Handoffs](../handoffs.md): fontes, versões, autorização, estado real e próximo passo, incluindo adaptação para ferramentas e controle de contexto.
+- [Modelos](../modelos/README.md): nove modelos reutilizáveis e seu índice; trabalho, bug, pesquisa, índice de Issue, decisão, PR, handoff, checkpoint e instruções para agentes.
+- [AGENTS deste repositório](../../AGENTS.md) e template curto de PR em `.github/pull_request_template.md`, preparados para a manutenção do método.
+- Vínculos nos capítulos e etapas aplicáveis e a [reconciliação R3](reconciliacao-r3.md).
 
-## Conferência documental de R2
+Os três modelos de Issue estão prontos para adaptação e cópia; não foram instalados como seletores no repositório do produto. Configurações locais, habilidades e Projects externos não foram alterados. O efeito do template de PR deste repositório depende da integração e conferência no GitHub.
 
-Foram conferidos a sequência 01–14, os campos comuns de cada etapa, os links relativos e blocos de código nos arquivos Markdown, a presença dos conjuntos de regras técnicas e a preservação dos rótulos anteriores de relatório e de preparação técnica. Os documentos do exemplo permanecem preservados; sua apresentação recebeu o aviso da estrutura anterior.
+## Verificação e limites
 
-Os capítulos técnicos transferem o detalhamento existente em vez de substituir todas as regras por resumos. A [reconciliação R2](reconciliacao-r2.md) registra as mudanças deliberadas: caminhos de entrada, sequência UX/UI, backlog em Issues, separação de etapas e documentos, leitura por conjunto completo aplicável e papel genérico das ferramentas.
+A conferência documental cobre links relativos, numeração, blocos de código, cabeçalhos YAML dos templates, campos necessários de aceite/evidência/continuidade e preservação dos identificadores técnicos e de relatório. Os capítulos técnicos e o exemplo anterior continuam preservados, salvo os vínculos e avisos explicitamente registrados nas reconciliações.
 
-Esta é uma verificação documental. Não houve validação com leitores externos, instalação de habilidades, alteração de configurações externas nem execução do método em outras ferramentas. A disponibilidade de todos os links externos não foi revalidada nesta entrega. A integração das PRs ainda depende do estado real no GitHub.
+Foram percorridas as instruções para pesquisa concluída com decisão pendente, design aprovado sem implementação, implementação com liberação separada e PR dependente. Isso verifica a clareza do procedimento; não comprova uso com leitores externos, renderização dos seletores do GitHub ou adoção das instruções em outras ferramentas.
 
-## Próximo passo: R3
+As fontes oficiais de GitHub usadas para templates, hierarquia, PRs e automações estão registradas nas [referências](referencias.md). R4 aprofundará a pesquisa e a comparação em outras etapas. Não afirmar validação externa ou configuração sem evidência correspondente.
 
-1. Ler a Issue #1, este checkpoint, o [plano](plano.md) e a [reconciliação R2](reconciliacao-r2.md).
-2. Conferir as PRs e branches de R1 e R2, a `main`, comentários e alterações posteriores. Preservar o trabalho ainda não integrado. Se R1 for integrada, conferir o redirecionamento da base da PR de R2 para a `main` antes de integrar o segundo recorte.
-3. Elaborar os modelos operacionais de governança incremental: fontes por assunto, aprovação, substituição, índice da Issue, estado do trabalho e evidência de conclusão.
-4. Especificar os modelos de Issue, PR e transferência de contexto. Distinguir pesquisa, design, implementação e liberação; adotar hierarquias apenas quando úteis.
-5. Detalhar a operação de Issues/Projects sem inventar uma configuração existente. Projects acompanha; não se torna uma segunda fonte de aprovação de produto.
-6. Conferir integração com instruções de agentes e habilidades locais. Preservar nomes de documentos, IDs e campos consumidos até adaptar seus consumidores; não alegar atualização externa sem evidência.
-7. Atualizar regras e etapas afetadas, reconciliação, checkpoint e Issue; publicar uma PR com dependência correta e verificações realizadas.
+## Próximo passo: R4
 
-R4 aprofundará benchmarking, fontes e controles de erros de IA por etapa. R5 atualizará os exemplos e consolidará a revisão final, com validação externa declarada apenas se ocorrer.
+1. Ler a Issue #1, este checkpoint, AGENTS, README, regras, governança, [plano](plano.md) e reconciliações pertinentes.
+2. Conferir a cadeia de PRs R1 → R2 → R3 e as branches atuais, inclusive comentários, merges e trabalho ainda não integrado. Preservar as alterações anteriores; usar a base real mais recente.
+3. Detalhar benchmarking e comparação proporcional ao impacto nas etapas de produto, UX/UI, qualidade, arquitetura, tecnologias e infraestrutura.
+4. Criar modelo de registro de comparação: pergunta, critérios, alternativas, fontes, data/versão, contexto, evidência, incertezas, recomendação, decisão e condição de reavaliação. Integrar ao modelo de pesquisa sem duplicar fontes.
+5. Definir prevenção e detecção de erros de IA por tipo de tarefa: evidência de usuário, compatibilidade, versões, custos, segurança, testes e comportamento observado. Evitar ranking estatístico de alucinação sem dados.
+6. Pesquisar fontes primárias atuais para as afirmações técnicas que forem acrescentadas; explicar limites e o que precisa de experimento, medição ou validação humana.
+7. Atualizar capítulos, vínculos, reconciliação, checkpoint e Issue. Publicar PR revisável e conferir o conteúdo remoto.
 
-## Referências da continuidade
+R5 atualizará o estudo fictício completo para a estrutura, governança e pesquisa novas e consolidará a revisão final. A validação por leitores externos deve permanecer pendente até realmente ocorrer.
 
-- [Plano](plano.md): responsabilidades e critérios das cinco entregas.
-- [Inventário de origem](inventario.md): títulos, linhas e blobs imutáveis.
-- [Glossário de revisão](glossario.md): correspondência entre vocabulário antigo e novo.
-- [Fontes do planejamento](referencias.md): referências primárias e limites de aplicação.
+## Fontes de retomada
 
-Ao encerrar uma entrega, registrar na Issue e na PR o escopo real, commits, evidências, verificações realizadas e pendentes, conflitos e próximo passo. O checkpoint orienta a retomada; o andamento continua na Issue para evitar um backlog concorrente.
+[Plano](plano.md) · [Inventário](inventario.md) · [Reconciliação R2](reconciliacao-r2.md) · [Reconciliação R3](reconciliacao-r3.md) · [Glossário de revisão](glossario.md) · [Referências](referencias.md)
+
+Ao encerrar o próximo recorte, registrar arquivos/commits, evidências, verificações realizadas e pendentes, dependências e próxima ação na Issue e neste checkpoint. O índice da Issue aponta para a continuidade vigente.

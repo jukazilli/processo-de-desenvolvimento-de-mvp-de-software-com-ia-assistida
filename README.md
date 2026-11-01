@@ -4,7 +4,7 @@ Um guia para transformar ideias ou materiais existentes em software compreensív
 
 O processo atende profissionais técnicos que precisam de um caminho claro entre objetivo, requisitos, experiência, arquitetura, tecnologias, infraestrutura e entrega. O produto construído pode ter ou não funcionalidades de IA.
 
-> **Revisão R2:** esta branch contém a entrada e as etapas reorganizadas. Os modelos detalhados de governança e transferência de contexto serão aprofundados em R3, a comparação de referências em R4 e os exemplos completos em R5. [Acompanhar a reorganização](docs/reorganizacao/README.md).
+> **Revisão R3:** esta branch contém a entrada, as etapas, a governança incremental e os modelos operacionais. A comparação de referências será aprofundada em R4 e os exemplos completos em R5. [Acompanhar a reorganização](docs/reorganizacao/README.md).
 
 ## Comece pelo que você já tem
 
@@ -52,6 +52,8 @@ O núcleo descreve responsabilidades e resultados. Cada ferramenta confirma suas
 Use documentos para decisões e especificações aprovadas, Issues para o trabalho, PRs para mudanças revisáveis e Projects para acompanhar o andamento quando útil. A documentação é atualizada junto com decisões e entregas; cada informação possui uma fonte oficial indicada pelo projeto.
 
 O backlog principal vive em Issues. Evite uma fila local concorrente em Markdown. Mantenha os vínculos entre requisito, Issue, PR, código, testes e evidência. Um item concluído em pesquisa ou design não comprova implementação nem liberação de software.
+
+Os procedimentos estão nos guias de [governança incremental](docs/governanca.md), [trabalho no GitHub](docs/trabalho-no-github.md) e [handoffs](docs/handoffs.md). Os [modelos reutilizáveis](docs/modelos/README.md) ajudam a registrar o necessário sem criar uma segunda fila.
 
 ## Para consultar durante o trabalho
 
