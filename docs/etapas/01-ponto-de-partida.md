@@ -16,6 +16,10 @@
 4. Definir responsáveis, fontes oficiais de cada assunto, local de registro, permissões e trabalho autorizado. Usar repositório e Issues; confirmar acesso antes de alegar uso.
 5. Escolher um caminho de entrada e registrar lacunas, dependências e etapas a reaproveitar. Rever essa escolha se o escopo mudar.
 
+## Governança inicial
+
+Definir as autoridades e responsabilidades usando o [guia de governança](../governanca.md). Aproveitar instruções existentes; o [modelo para agentes](../modelos/instrucoes-para-agentes.md) orienta uma adaptação revisável e a conferência no ambiente de destino. A instalação não é presumida.
+
 ## O que registrar
 
 - Inventário curto e acessível dos materiais.

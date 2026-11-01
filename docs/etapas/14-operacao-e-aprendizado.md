@@ -34,6 +34,8 @@ Protótipos e estudos também geram aprendizado, mesmo sem usuários externos. D
 
 Encaminhar a próxima mudança para as etapas necessárias, reaproveitando decisões suficientes. Registrar um checkpoint antes de trocar de pessoa, ferramenta ou ambiente.
 
+Usar o [checkpoint](../modelos/checkpoint.md) para retomar um recorte e a [governança incremental](../governanca.md) para consolidar decisões e documentação.
+
 Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
 
 ---

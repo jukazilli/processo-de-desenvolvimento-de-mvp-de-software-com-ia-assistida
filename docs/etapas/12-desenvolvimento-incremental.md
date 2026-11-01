@@ -34,6 +34,8 @@ A equipe pode usar ciclos com prazo ou fluxo contínuo. Uma iteração é o per�
 
 Transferir o candidato, mudanças de dados, evidências e plano de verificação à etapa 13. O que falta concluir permanece rastreado, mesmo ao terminar um ciclo.
 
+Para a revisão, usar o [modelo de PR](../modelos/pull-request.md); para troca de executor, conferir os [handoffs](../handoffs.md).
+
 ## Orientação detalhada
 
 Consultar o capítulo de [padrões de desenvolvimento](../praticas/desenvolvimento.md) para as regras e exemplos aplicáveis. Esse capítulo aprofunda a etapa; ele não cria uma etapa adicional.

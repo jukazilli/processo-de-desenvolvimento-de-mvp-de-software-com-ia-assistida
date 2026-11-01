@@ -27,6 +27,7 @@ Use o termo técnico quando ele ajuda a pesquisar ou conversar com a área. Na l
 | Incremento vertical | Capacidade de ponta a ponta, atravessando as camadas necessárias da solução |
 | Transferência de contexto — handoff | Passagem de objetivo, fontes, decisões, evidências, pendências e responsabilidade |
 | Critérios de conclusão — Definition of Done | Condições verificáveis para concluir um tipo de trabalho |
+| QA — verificação da qualidade | Atividades para conferir requisitos e comportamento, registrando condições, resultados e evidências |
 | Verificação obrigatória — quality gate | Critério que deve ser atendido antes de avançar ou liberar |
 | Pré-produção — staging | Ambiente usado para conferir o candidato em condições representativas, com limites declarados |
 | Liberação ou promoção | Passagem da versão validada para o próximo ambiente autorizado |

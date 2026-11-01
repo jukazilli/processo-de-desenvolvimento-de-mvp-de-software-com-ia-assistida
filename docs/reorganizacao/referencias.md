@@ -27,3 +27,16 @@ Cada comparação relevante deve registrar pergunta, alternativas, critérios, f
 Benchmarking de produto e padrões é uma comparação de referências. Benchmark de desempenho é uma medição em condições declaradas. Ambos exigem contexto; números de um ambiente ou caso público não podem ser apresentados como medições do projeto.
 
 Para validar necessidade de usuário, usar evidências e pesquisa adequadas. Para validar tecnologia, usar fontes oficiais e experimentos quando necessários. Para validar implementação, usar revisão e testes pertinentes. Para validar disponibilidade, custo real e operação, usar evidência do ambiente. A saída de uma IA ou uma lista de referências não substitui essas comprovações.
+
+## Fontes conferidas na operação de R3
+
+| Fonte primária | Aplicação | Limite |
+| --- | --- | --- |
+| [GitHub — Templates de Issue e PR](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates) | Destino dos templates e cabeçalhos Markdown | Arquivo preparado não comprova seletor renderizado no repositório de destino |
+| [GitHub — Configurar templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) | Campos name/about/title e adaptação | Labels, tipos e responsáveis dependem da configuração real; não são presumidos nos modelos |
+| [GitHub — Vincular PR e Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) | Referências, palavras de fechamento e branch de destino | Conferir base e configuração; fechamento não equivale a aprovação ou liberação |
+| [GitHub — Automação de Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations) | Auditar evento, filtro, ação e efeitos nos estados | Não habilitar Feito por fechamento sem verificar os critérios próprios do projeto |
+| [GitHub — Fechamento automático](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues) | Conferir configuração de encerramento por merge | Não assumir que todos os repositórios usam os mesmos ajustes |
+| [GitHub — Sub-Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/adding-sub-issues) | Hierarquia nativa e sua conferência | Um link textual não cria automaticamente o vínculo de pai e filho |
+
+As fontes sustentam capacidades e funcionamento do GitHub. Os significados de Pronto, Em revisão e Feito são convenções propostas pelo método e precisam ser adotados explicitamente pelo projeto.

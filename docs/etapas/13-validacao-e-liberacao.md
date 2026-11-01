@@ -34,6 +34,8 @@ Um estudo sem lançamento pode concluir em ambiente local ou protótipo; registr
 
 Transferir à operação a versão, mudanças, riscos, monitoramento, suporte e procedimentos de recuperação. Falhas abrem ou atualizam Issues e retornam à etapa pertinente.
 
+Registrar a passagem para operação pelo [modelo de handoff](../modelos/handoff.md), distinguindo estado do trabalho, aprovação, GitHub e comprovação de execução.
+
 Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
 
 ---
