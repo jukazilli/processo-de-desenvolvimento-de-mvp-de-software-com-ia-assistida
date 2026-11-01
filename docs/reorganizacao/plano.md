@@ -33,7 +33,7 @@ Cada entrega usa branch e PR próprias. Se depender de uma PR ainda não integra
 
 ## Estrutura prevista do método
 
-Os nomes e caminhos finais serão implementados em R2. Esta tabela define a sequência e as responsabilidades; as etapas podem ser revisitadas conforme o aprendizado.
+Os nomes e caminhos foram implementados na branch de R2 e estão em revisão. Ver a [reconciliação](reconciliacao-r2.md) para os destinos reais. Esta tabela define a sequência e as responsabilidades; as etapas podem ser revisitadas conforme o aprendizado.
 
 | Etapa | Nome | Entrega esperada |
 | --- | --- | --- |
