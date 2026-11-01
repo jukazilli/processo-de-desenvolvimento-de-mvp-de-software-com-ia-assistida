@@ -388,3 +388,7 @@ Acrescentar uma linha por unidade revisada nas entregas seguintes. A PR deve apo
 ## Situação dos exemplos em R5
 
 Os 15 caminhos de origem foram conferidos e mantidos como encaminhamentos. O estudo atual está em [plataforma de cursos](../../examples/plataforma-de-cursos/README.md), com 19 documentos e cobertura das 14 etapas. A [reconciliação R5](reconciliacao-r5.md) identifica origem, destino, alterações e limites; a origem permanece acessível por commit.
+
+## Correção posterior de ativação e saídas
+
+Os destinos operacionais posteriores e as mudanças de padrão de saída estão registrados na [correção de ativação](correcao-ativacao-e-saidas.md). O inventário e as reconciliações R2–R5 descrevem suas respectivas entregas históricas; os caminhos antigos continuam como referências aos destinos atuais.

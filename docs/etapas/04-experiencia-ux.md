@@ -1,51 +1,17 @@
-# 04. Mapear jornadas e validar a experiência — UX
+# Como revisar a etapa 04. Mapear jornadas e validar a experiência — UX
 
-**Objetivo:** Explicar como a pessoa realiza uma tarefa, recebe retorno e se recupera de erros ao usar a solução.
+Esta página é uma explicação para quem acompanha o projeto. A execução é definida no [contrato da etapa 04 no README](../../README.md#etapa-04); a IA recebe ali entradas, ações, pesquisa, condições e saída.
 
-## Entradas
+## O que você recebe
 
-- Necessidades, objetivos e escopo aprovados.
-- Pesquisas, jornadas, fluxos, telas ou protótipos já disponíveis.
+Uma seção **04 — Experiência e jornadas — UX** de `docs/PROJETO.md` do produto, apresentada para revisão e acumulada no mesmo documento. Se não houver destino de escrita autorizado, o conteúdo aparece na conversa como rascunho ainda não salvo.
 
-## Como realizar
+O conteúdo específico inclui: Princípios; atores e tarefas; fluxos com estados e transições; falhas, retomada e mensagens; acessibilidade; referências e adaptações; critérios de aceitação; validação realizada e pendente.
 
-1. Definir princípios de experiência adequados ao contexto: esforço mental, quantidade de informação, linguagem e personalidade. Escrever critérios avaliáveis.
-2. Mapear jornadas, tarefas, atores, estados e transições. Incluir carregamento, ausência de dados, erro, sucesso, confirmações, interrupções e retomadas.
-3. Definir validações, mensagens críticas, gestos aplicáveis e comportamento por plataforma, incluindo acessibilidade.
-4. Comparar referências reais para a tarefa e suas condições de uso; explicar o que serve ao projeto e o que precisa ser adaptado.
-5. Validar dúvidas de interação com pesquisa, protótipo ou teste apropriado. Uma imagem não comprova que o fluxo funciona.
-6. Separar o que foi observado, proposto, aprovado ou ainda não validado. Registrar casos de aceitação e dúvidas para UI e engenharia.
+## Como avaliar
 
-## Pesquisa, comparação e verificação
+Entregar jornadas suficientemente claras para revisão humana e posterior implementação. Referência visual não comprova funcionamento ou usabilidade.
 
-**Comparar jornadas e validar hipóteses.** Comparar tarefas, contextos, estados de falha e retomada em referências reais. Adaptar padrões ao público e conferir as hipóteses importantes por pesquisa ou protótipo. Uma sequência de imagens não comprova funcionamento ou acessibilidade.
+Confira se a entrega responde ao objetivo, mostra fontes acessíveis, separa hipótese e decisão e declara o que não foi validado. Você pode corrigir a mesma seção e aprovar seu recorte. Aprovação da análise não comprova implementação ou liberação.
 
-Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
-
-## O que registrar
-
-- Princípios de experiência e jornadas com estados e exceções.
-- Comportamentos e critérios de usabilidade e acessibilidade.
-- Evidências de validação realizadas e questões ainda abertas.
-
-## Critério de conclusão
-
-Outra pessoa consegue percorrer o fluxo principal e as falhas relevantes sem ter de inventar transições, regras ou mensagens essenciais.
-
-## Aproveitar ou não aplicar
-
-Reaproveitar fluxos e pesquisas atuais. Mudança sem interface humana pode dispensar telas e protótipos visuais; ainda precisa esclarecer a experiência de seus consumidores, como clientes de API ou operadores.
-
-## Transferência para a próxima atividade
-
-Transferir para UI o comportamento aprovado e para engenharia requisitos como uso sem rede, mídia, sincronização ou acessibilidade.
-
-## Orientação detalhada
-
-Consultar o capítulo de [experiência e interface](../praticas/experiencia.md) para as regras e exemplos aplicáveis. Esse capítulo aprofunda a etapa; ele não cria uma etapa adicional.
-
-Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
-
----
-
-[Voltar ao guia](../../README.md) · [Etapa anterior](03-objetivo-e-escopo.md) · [Próxima etapa](05-interface-ui.md)
+Materiais existentes podem atender à etapa; o número não exige um arquivo novo. Veja [como começar e continuar](../como-usar.md), [como o documento evolui](../saidas-e-documento-do-projeto.md) e o [modelo](../../framework/modelos/projeto.md).

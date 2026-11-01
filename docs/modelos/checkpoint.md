@@ -1,12 +1,9 @@
 # Registro de continuidade
 
-- Tarefa e estado real: (Issue e escopo do recorte).
-- Fontes: (repositório, branch, commit, documentos e decisões pertinentes).
-- Resultado: (arquivos, PR/commit e evidências).
-- Verificação: (o que foi e não foi conferido; condições e resultado).
-- Trabalho não integrado: (branch, PR, base e dependências).
-- Decisões ou impedimentos: (links e condições para continuar).
-- Próximo passo: (ação concreta, fontes e critério de conclusão).
-- Registro oficial da fila: (Issue; este checkpoint não é outro backlog).
+Esta página explica onde encontrar este assunto. As instruções consumidas pela IA estão em [Registro de continuidade](../../framework/modelos/checkpoint.md), no framework. Este caminho foi preservado para links e consumidores anteriores; não mantém um segundo contrato editável.
 
-Na retomada, conferir o estado atual das fontes e reconciliar mudanças antes de editar. Para troca de executor com mais contexto, usar o modelo de handoff.
+Para usar o processo, envie seu objetivo e o link do [README](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida). A IA recebe ali a ativação, a condução e as saídas de cada etapa. Você não precisa montar um prompt com todas as regras.
+
+As entregas revisáveis acumulam conhecimento em `docs/PROJETO.md` **do produto desenvolvido**. Issues organizam o trabalho e suas evidências. O documento não é criado na pasta de documentação deste método. Materiais existentes são aproveitados antes de qualquer substituição.
+
+[Como usar e revisar](../README.md)

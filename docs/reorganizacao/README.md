@@ -54,3 +54,11 @@ As cinco PRs foram redirecionadas para main quando necessário e integradas em o
 | R5 | #6 | `a472bee42cdd951cfe30ac24552fc521d5131de1` |
 
 Os registros de preparação acima descrevem a origem e os limites das entregas. Não havia checks de CI configurados nos commits consultados; a verificação foi documental e de integridade Git. Este registro não declara teste de aplicação ou validação externa.
+
+## Correção posterior: ativação e documento incremental
+
+Após a integração de R1–R5, o responsável identificou a mistura entre explicação do método e instruções operacionais, além da ausência de saída padrão. A correção está preparada na branch `fix/ativacao-e-saidas-do-framework`, criada da main `e2eb7f94e09faf1dfcc7424e7851b78b31e427f3`. Não altera as branches anteriores nem implica merge.
+
+Ver [escopo, destinos e verificações](correcao-ativacao-e-saidas.md). O README passa a ser a entrada da IA e o contrato das 14 etapas; `docs/` explica adoção e revisão; `framework/` guarda o detalhamento operacional. A saída padrão fica no produto como `docs/PROJETO.md`, com uma seção por etapa e atualização incremental ligada às Issues.
+
+A Issue #1 aponta para PR/commit atuais e resultados das conferências. Antes de continuar, conferir a branch, os comentários e a integração dessa correção; não presumir que a main já a contém. Validação com entradas reais e leitores externos continua pendente.

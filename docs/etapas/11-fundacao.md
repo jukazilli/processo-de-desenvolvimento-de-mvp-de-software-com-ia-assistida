@@ -1,51 +1,17 @@
-# 11. Preparar a fundação do projeto
+# Como revisar a etapa 11. Preparar a fundação do projeto
 
-**Objetivo:** Criar ou conferir uma base técnica utilizável para desenvolver, testar e implantar o que foi planejado.
+Esta página é uma explicação para quem acompanha o projeto. A execução é definida no [contrato da etapa 11 no README](../../README.md#etapa-11); a IA recebe ali entradas, ações, pesquisa, condições e saída.
 
-## Entradas
+## O que você recebe
 
-- Issues de preparação, decisões técnicas e plano de infraestrutura.
-- Acesso autorizado a ambientes e ações humanas pendentes identificadas.
+Uma seção **11 — Fundação e preparação técnica** de `docs/PROJETO.md` do produto, apresentada para revisão e acumulada no mesmo documento. Se não houver destino de escrita autorizado, o conteúdo aparece na conversa como rascunho ainda não salvo.
 
-## Como realizar
+O conteúdo específico inclui: Componentes preparados ou reaproveitados; versões e comandos; ambientes; migrações e acesso; CI e verificações; evidências por commit/ambiente; impedimentos e prontidão para o próximo item.
 
-1. Conferir o repositório e versões, ferramentas, dependências aprovadas e configuração local reproduzível.
-2. Configurar as automações de qualidade e entrega adequadas ao projeto.
-3. Preparar serviços, dados, migrações, autenticação, mídia e processamento necessários, com separação entre cliente e servidor e entre ambientes.
-4. Guardar segredos nos mecanismos próprios do ambiente. Não pedir senhas, chaves privadas, códigos de recuperação ou dados de cartão no chat.
-5. Encaminhar login, MFA, CAPTCHA, aceite legal e ações sensíveis ao humano pelo mecanismo da ferramenta. Se houver bloqueio, registrar instruções seguras para conclusão.
-6. Executar verificações básicas do ambiente, migrações, acesso, implantação, observabilidade e recuperação conforme aplicável; registrar resultado e limitações.
+## Como avaliar
 
-## Pesquisa, comparação e verificação
+Entregar relatório da preparação realmente executada e instruções reproduzíveis. Se apenas planejada, manter esse estado; checklist não comprova FND_READY.
 
-**Comprovar a preparação.** Conferir os comandos e configurações na documentação da versão escolhida. Executar apenas no ambiente e escopo autorizados; guardar resultados das verificações. Um guia, checklist ou comando gerado não comprova que os serviços foram configurados.
+Confira se a entrega responde ao objetivo, mostra fontes acessíveis, separa hipótese e decisão e declara o que não foi validado. Você pode corrigir a mesma seção e aprovar seu recorte. Aprovação da análise não comprova implementação ou liberação.
 
-Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
-
-## O que registrar
-
-- Ambiente configurado e verificável, com instruções reproduzíveis.
-- Evidências da primeira implantação técnica e verificações aplicáveis.
-- Pendências e exceções de preparação explicitadas nas Issues.
-
-## Critério de conclusão
-
-A base permite executar o próximo item com segurança e evidência. Criar contas ou pastas, sozinho, não prova prontidão operacional.
-
-## Aproveitar ou não aplicar
-
-Em projeto existente, conferir a base afetada e preparar apenas lacunas. Uma entrega pode começar com parte da preparação em paralelo se dependências e risco forem explicitamente aceitos.
-
-## Transferência para a próxima atividade
-
-Transferir ao executor da etapa 12 versões, acessos seguros, comandos, decisões, evidências e limitações reais.
-
-## Orientação detalhada
-
-Consultar o capítulo de [infraestrutura](../praticas/infraestrutura.md) para as regras e exemplos aplicáveis. Esse capítulo aprofunda a etapa; ele não cria uma etapa adicional.
-
-Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
-
----
-
-[Voltar ao guia](../../README.md) · [Etapa anterior](10-trabalho-no-github.md) · [Próxima etapa](12-desenvolvimento-incremental.md)
+Materiais existentes podem atender à etapa; o número não exige um arquivo novo. Veja [como começar e continuar](../como-usar.md), [como o documento evolui](../saidas-e-documento-do-projeto.md) e o [modelo](../../framework/modelos/projeto.md).

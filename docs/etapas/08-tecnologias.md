@@ -1,51 +1,17 @@
-# 08. Escolher e validar as tecnologias
+# Como revisar a etapa 08. Escolher e validar as tecnologias
 
-**Objetivo:** Definir com quais tecnologias a arquitetura será implementada e quais regras orientam seu uso.
+Esta página é uma explicação para quem acompanha o projeto. A execução é definida no [contrato da etapa 08 no README](../../README.md#etapa-08); a IA recebe ali entradas, ações, pesquisa, condições e saída.
 
-## Entradas
+## O que você recebe
 
-- Arquitetura, requisitos de qualidade, padrões de código e necessidades de interface.
-- Tecnologias existentes, versões instaladas, licenças e restrições da organização.
+Uma seção **08 — Tecnologias e regras de uso** de `docs/PROJETO.md` do produto, apresentada para revisão e acumulada no mesmo documento. Se não houver destino de escrita autorizado, o conteúdo aparece na conversa como rascunho ainda não salvo.
 
-## Como realizar
+O conteúdo específico inclui: Tecnologia por responsabilidade; origem e documentação oficial; versões e compatibilidade conferidas ou pendentes; justificativas e alternativas; licenças; limites de uso; política de dependências/lockfile; preparação necessária.
 
-1. Escolher ou validar linguagens, ambientes de execução, frameworks, bibliotecas por responsabilidade e ferramentas de desenvolvimento.
-2. Conferir documentação oficial atual, suporte, versões compatíveis, manutenção, segurança e licença nas decisões relevantes.
-3. Comparar opções de acordo com o contexto: legibilidade, testes, desempenho, operação, equipe, custo de atualização e dependência de fornecedor.
-4. Definir onde cada biblioteca pode ser usada. Preferir recursos da plataforma e soluções já aprovadas quando suficientes; justificar duplicações necessárias.
-5. Registrar política de versões e compatibilidade; o arquivo de dependências travadas — lockfile — registra o conjunto exato instalado.
-6. Reabrir decisões afetadas se uma tecnologia exigir mudança arquitetural; não adaptar documentos silenciosamente para justificar uma preferência.
+## Como avaliar
 
-## Pesquisa, comparação e verificação
+Entregar seleção tecnológica rastreável. Versões instaladas, compatibilidade testada e escolhas propostas são informações diferentes.
 
-**Conferir existência, versão e compatibilidade.** Consultar documentação oficial e a origem das dependências, versões, suporte, manutenção e licença. Conferir pacote e responsável antes de instalar. Uma API ou nome plausível sugerido por IA não é evidência de existência, legitimidade ou compatibilidade.
+Confira se a entrega responde ao objetivo, mostra fontes acessíveis, separa hipótese e decisão e declara o que não foi validado. Você pode corrigir a mesma seção e aprovar seu recorte. Aprovação da análise não comprova implementação ou liberação.
 
-Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
-
-## O que registrar
-
-- Conjunto de tecnologias aprovado e justificado.
-- Regras de uso, compatibilidade, versões ou política de atualização.
-- Alternativas rejeitadas relevantes e itens de preparação técnica.
-
-## Critério de conclusão
-
-O executor consegue configurar o projeto sem precisar escolher novamente linguagens, ferramentas centrais e bibliotecas de responsabilidade já definida.
-
-## Aproveitar ou não aplicar
-
-Em projeto existente, verificar versões e capacidade antes de propor troca. Não atualizar dependências ou substituir frameworks por conveniência da IA.
-
-## Transferência para a próxima atividade
-
-Entregar escolhas à infraestrutura e transformar configuração e verificações em Issues de preparação.
-
-## Orientação detalhada
-
-Consultar o capítulo de [escolha das tecnologias](../praticas/tecnologias.md) para as regras e exemplos aplicáveis. Esse capítulo aprofunda a etapa; ele não cria uma etapa adicional.
-
-Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
-
----
-
-[Voltar ao guia](../../README.md) · [Etapa anterior](07-arquitetura.md) · [Próxima etapa](09-infraestrutura.md)
+Materiais existentes podem atender à etapa; o número não exige um arquivo novo. Veja [como começar e continuar](../como-usar.md), [como o documento evolui](../saidas-e-documento-do-projeto.md) e o [modelo](../../framework/modelos/projeto.md).

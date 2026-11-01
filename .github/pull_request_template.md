@@ -18,4 +18,4 @@
 
 (Checkpoint atualizado, pendências, integração e próximo passo.)
 
-Orientação: consultar `docs/modelos/pull-request.md` e `AGENTS.md` no repositório. Ao publicar a descrição, usar links completos para arquivos ou evidências e conferir sua resolução no contexto da PR.
+Orientação: consultar `framework/modelos/pull-request.md` e `AGENTS.md` no repositório. Ao publicar a descrição, usar links completos para arquivos ou evidências e conferir sua resolução no contexto da PR.
