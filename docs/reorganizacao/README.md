@@ -57,8 +57,8 @@ Os registros de preparação acima descrevem a origem e os limites das entregas.
 
 ## Correção posterior: ativação e documento incremental
 
-Após a integração de R1–R5, o responsável identificou a mistura entre explicação do método e instruções operacionais, além da ausência de saída padrão. A correção está preparada na branch `fix/ativacao-e-saidas-do-framework`, criada da main `e2eb7f94e09faf1dfcc7424e7851b78b31e427f3`. Não altera as branches anteriores nem implica merge.
+Após a integração de R1–R5, o responsável identificou a mistura entre explicação do método e instruções operacionais, além da ausência de saída padrão. A correção foi integrada à main pela PR #7, por autorização do responsável, no merge commit `d8cba5eb1541514f32100aa5c67d60bb99705db7`. A branch `fix/ativacao-e-saidas-do-framework` e as cinco branches anteriores foram preservadas.
 
 Ver [escopo, destinos e verificações](correcao-ativacao-e-saidas.md). O README passa a ser a entrada da IA e o contrato das 14 etapas; `docs/` explica adoção e revisão; `framework/` guarda o detalhamento operacional. A saída padrão fica no produto como `docs/PROJETO.md`, com uma seção por etapa e atualização incremental ligada às Issues.
 
-A Issue #1 aponta para PR/commit atuais e resultados das conferências. Antes de continuar, conferir a branch, os comentários e a integração dessa correção; não presumir que a main já a contém. Validação com entradas reais e leitores externos continua pendente.
+A Issue #1 aponta para PR/commit atuais e resultados das conferências. A árvore da main após o merge coincidiu integralmente com a árvore revisada da PR #7 (`1a4ca17aaf99265b5fc8b54a83a0ca811a42434c`). Antes de continuar, conferir fontes e comentários atuais. Validação com entradas reais e leitores externos continua pendente.

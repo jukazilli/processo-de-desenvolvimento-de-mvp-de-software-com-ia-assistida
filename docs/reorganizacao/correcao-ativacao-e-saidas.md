@@ -1,6 +1,6 @@
 # Correção: framework operacional, explicação e saídas
 
-> Preparada para revisão em branch `fix/ativacao-e-saidas-do-framework`, com base na main `e2eb7f94e09faf1dfcc7424e7851b78b31e427f3`. As PRs R1–R5 já foram integradas e suas branches permanecem preservadas. Esta correção não está integrada por ter sido preparada.
+> Integrada à main pela PR #7, por autorização do responsável, no merge commit `d8cba5eb1541514f32100aa5c67d60bb99705db7`. Base de preparação: `e2eb7f94e09faf1dfcc7424e7851b78b31e427f3`. A branch corretiva e as cinco branches R1–R5 permanecem preservadas.
 
 ## Problema e direção autorizada
 
@@ -79,6 +79,6 @@ O exemplo anterior com documentos separados continua acessível como material ex
 
 Foram conferidos links e anchors locais, títulos, sequência das etapas, campos do modelo, YAML dos três templates de Issue, preservação dos materiais movidos, IDs e 18 campos legados. Resultados e contagens ficam registrados na Issue #1 e na PR. As verificações são documentais; não houve teste com leitor externo, implantação, execução do produto fictício ou homologação em ChatGPT/Codex/Gemini.
 
-Revisar a PR corretiva, especialmente ativação e saída das etapas 01–03. Depois de integração autorizada, experimentar com uma entrada real e verificar leitura das fontes, conteúdo da primeira saída e persistência no destino. Registrar a evidência antes de alegar validação externa. Não alterar nem excluir as cinco branches anteriores.
+A PR corretiva foi integrada sem conflitos. A árvore resultante coincidiu com a árvore revisada da PR #7; o registro posterior altera somente o estado da integração nos dois documentos de continuidade. Próximo passo: experimentar com uma entrada real e verificar leitura das fontes, conteúdo da primeira saída e persistência no destino. Registrar a evidência antes de alegar validação externa. Não alterar nem excluir as cinco branches anteriores.
 
 [Checkpoint](README.md) · [Documentação](../README.md) · [Processo](../../README.md) · [Exemplo atual](../../examples/ativacao/README.md)
