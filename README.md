@@ -1,12 +1,14 @@
-# Engenharia de IA — Processo Canônico de Desenvolvimento
+# Processo de desenvolvimento de software com apoio de IA
 
 > **Status:** canônico  
 > **Formato:** Markdown (`.md`)  
 > **Objetivo:** definir um processo reproduzível para transformar Discovery assistido por IA em software rastreável, testável, validado e com identidade própria.
 
+> **Reorganização em etapas:** consulte o [plano e o registro de continuidade](docs/reorganizacao/README.md). As propostas nessa pasta estão em revisão e serão incorporadas por entregas rastreáveis.
+
 ## 1. Propósito
 
-Este repositório documenta o processo de desenvolvimento de aplicações assistido por ChatGPT e Codex adotado a partir da experiência do projeto DayGym.
+Este repositório documenta um processo de desenvolvimento de software com apoio de IA, com decisões humanas, documentação versionada e evidências de implementação e validação.
 
 O objetivo não é pedir para uma IA "criar um sistema" a partir de um prompt único. O processo separa descoberta, definição de produto, experiência, engenharia, arquitetura, seleção tecnológica, infraestrutura, execução, validação e evolução documental.
 
@@ -3592,7 +3594,7 @@ Se a engine concluir que ainda não existe contexto mínimo para produzir uma Pe
 A fonte pública oficial desta metodologia é:
 
 ```text
-https://github.com/jukazilli/processo-de-desenvolvimento-de-software-com-ia-assistida
+https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida
 ```
 
 O arquivo operacional principal é:
@@ -3649,7 +3651,7 @@ Exemplo:
 
 ```text
 ENGINE_SOURCE:
-jukazilli/processo-de-desenvolvimento-de-software-com-ia-assistida
+jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida
 
 BRANCH:
 main
@@ -3690,7 +3692,7 @@ Depois de carregar integralmente a metodologia, a IA deve responder de forma cur
 
 ```text
 ENGINE_STATUS: ACTIVE
-SOURCE: jukazilli/processo-de-desenvolvimento-de-software-com-ia-assistida
+SOURCE: jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida
 BRANCH: main
 COMMIT: <sha, quando disponível>
 PROCESS_LOADED: complete
@@ -3721,7 +3723,7 @@ ATIVAR ENGINE — PROCESSO DE DESENVOLVIMENTO DE SOFTWARE COM IA ASSISTIDA
 Quero que, a partir deste ponto, você utilize como protocolo operacional desta conversa
 o processo canônico disponível em:
 
-https://github.com/jukazilli/processo-de-desenvolvimento-de-software-com-ia-assistida
+https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida
 
 Antes de gerar qualquer documento ou executar qualquer etapa:
 
