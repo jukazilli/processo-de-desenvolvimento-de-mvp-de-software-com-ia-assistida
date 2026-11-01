@@ -1,53 +1,17 @@
-# 12. Desenvolver por ciclos e entregas pequenas
+# Como revisar a etapa 12. Desenvolver por ciclos e entregas pequenas
 
-**Objetivo:** Implementar mudanças pequenas, verificáveis e coerentes com os objetivos do produto.
+Esta página é uma explicação para quem acompanha o projeto. A execução é definida no [contrato da etapa 12 no README](../../README.md#etapa-12); a IA recebe ali entradas, ações, pesquisa, condições e saída.
 
-## Entradas
+## O que você recebe
 
-- Issue pronta, decisões e critérios de aceite acessíveis.
-- Fundação suficiente para o item ou exceção aprovada com limites claros.
+Uma seção **12 — Desenvolvimento e entregas** de `docs/PROJETO.md` do produto, apresentada para revisão e acumulada no mesmo documento. Se não houver destino de escrita autorizado, o conteúdo aparece na conversa como rascunho ainda não salvo.
 
-## Como realizar
+O conteúdo específico inclui: Issue e aceite do recorte; decisões aplicáveis; resultado; arquivos/PR/commit; testes executados e não executados; documentação consolidada; limitações e candidato para validação.
 
-1. Selecionar o item priorizado e conferir fontes, versões, dependências, escopo autorizado e padrões locais.
-2. Procurar código e componentes equivalentes antes de criar funções, tipos, arquivos ou dependências novos.
-3. Implementar a menor mudança coerente. Para funcionalidades, preferir capacidade de ponta a ponta, incluindo as camadas necessárias; pesquisa e preparação têm resultados próprios.
-4. Criar ou atualizar os testes pertinentes, revisar o próprio diff e executar verificações aplicáveis de código, segurança, arquitetura e tecnologias.
-5. Atualizar documentação afetada e vínculos da Issue e da PR na mesma entrega. Registrar hipóteses e decisões novas como propostas até sua aprovação.
-6. Registrar resultados, erros e impedimentos. Se uma descoberta altera escopo ou decisão relevante, apresentar o impacto ao responsável antes de ampliar a mudança.
+## Como avaliar
 
-## Pesquisa, comparação e verificação
+Entregar incremento e relatório do recorte conforme autorização. Registrar entregas por ID sem duplicar backlog ou chamar código não testado de versão liberada.
 
-**Conferir o contrato e a implementação.** Comparar a proposta com código, componentes e padrões existentes e documentação da versão. Derivar testes de requisitos e riscos, incluindo falhas pertinentes. Revisão da própria IA não substitui execução nem uma conferência independente quando exigida pelo projeto.
+Confira se a entrega responde ao objetivo, mostra fontes acessíveis, separa hipótese e decisão e declara o que não foi validado. Você pode corrigir a mesma seção e aprovar seu recorte. Aprovação da análise não comprova implementação ou liberação.
 
-Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
-
-## O que registrar
-
-- PR pequena e revisável, vinculada à Issue.
-- Código, documentos e testes coerentes, com evidências e limitações.
-- Candidato identificado por commit ou artefato para validação.
-
-## Critério de conclusão
-
-A mudança satisfaz o aceite no escopo proposto, respeita os padrões, foi revisada e possui evidência das verificações. A liberação depende da etapa 13 quando aplicável.
-
-## Aproveitar ou não aplicar
-
-A equipe pode usar ciclos com prazo ou fluxo contínuo. Uma iteração é o período de trabalho; um incremento é a capacidade entregue. Não chamar a entrega de “fatia” sem explicar seu resultado.
-
-## Transferência para a próxima atividade
-
-Transferir o candidato, mudanças de dados, evidências e plano de verificação à etapa 13. O que falta concluir permanece rastreado, mesmo ao terminar um ciclo.
-
-Para a revisão, usar o [modelo de PR](../modelos/pull-request.md); para troca de executor, conferir os [handoffs](../handoffs.md).
-
-## Orientação detalhada
-
-Consultar o capítulo de [padrões de desenvolvimento](../praticas/desenvolvimento.md) para as regras e exemplos aplicáveis. Esse capítulo aprofunda a etapa; ele não cria uma etapa adicional.
-
-Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
-
----
-
-[Voltar ao guia](../../README.md) · [Etapa anterior](11-fundacao.md) · [Próxima etapa](13-validacao-e-liberacao.md)
+Materiais existentes podem atender à etapa; o número não exige um arquivo novo. Veja [como começar e continuar](../como-usar.md), [como o documento evolui](../saidas-e-documento-do-projeto.md) e o [modelo](../../framework/modelos/projeto.md).

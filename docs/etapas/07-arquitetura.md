@@ -1,51 +1,17 @@
-# 07. Desenhar a arquitetura da solução
+# Como revisar a etapa 07. Desenhar a arquitetura da solução
 
-**Objetivo:** Escolher uma estrutura que atenda às necessidades técnicas com complexidade justificável.
+Esta página é uma explicação para quem acompanha o projeto. A execução é definida no [contrato da etapa 07 no README](../../README.md#etapa-07); a IA recebe ali entradas, ações, pesquisa, condições e saída.
 
-## Entradas
+## O que você recebe
 
-- Requisitos de produto, experiência e qualidade.
-- Estrutura existente, integrações e decisões técnicas aprovadas.
+Uma seção **07 — Arquitetura e decisões técnicas** de `docs/PROJETO.md` do produto, apresentada para revisão e acumulada no mesmo documento. Se não houver destino de escrita autorizado, o conteúdo aparece na conversa como rascunho ainda não salvo.
 
-## Como realizar
+O conteúdo específico inclui: Contexto, módulos e responsabilidades; dados e contratos; integrações e limites; organização do repositório; alternativas; decisões ADR com consequências e estado; verificações de limites; entradas para tecnologias e infraestrutura.
 
-1. Descrever contexto, aplicações, módulos, dados, contratos, integrações, limites de confiança e dependências.
-2. Comparar alternativas quando a decisão for relevante; explicitar consequências, custos, riscos e adequação à equipe.
-3. Definir a organização do repositório: simples, monorepo ou múltiplos repositórios, conforme compartilhamento e independência necessários.
-4. Registrar decisões significativas, incluindo opções rejeitadas e condições para reavaliar. Um registro de decisão arquitetural — ADR — pode cumprir essa função.
-5. Transformar limites importantes em regras verificáveis quando possível: importações, acesso a dados, autorização e separação entre cliente e servidor.
-6. Produzir restrições para a escolha de tecnologias e necessidades para infraestrutura, sem escolher padrões por preferência do agente.
+## Como avaliar
 
-## Pesquisa, comparação e verificação
+Entregar desenho compreensível e decisões revisáveis na seção. Arquivo ADR separado é exceção justificada ou fonte existente preservada; não obrigatório.
 
-**Comparar soluções arquiteturais.** Avaliar alternativas contra restrições de escala, dados, segurança, equipe e operação. Registrar consequências e condições para reavaliar. ADR ajuda a registrar a decisão e C4 a comunicar a estrutura; nenhum deles escolhe automaticamente o padrão adequado.
+Confira se a entrega responde ao objetivo, mostra fontes acessíveis, separa hipótese e decisão e declara o que não foi validado. Você pode corrigir a mesma seção e aprovar seu recorte. Aprovação da análise não comprova implementação ou liberação.
 
-Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
-
-## O que registrar
-
-- Visão da solução e limites claros.
-- Decisões arquiteturais com contexto, alternativas e consequências.
-- Entradas técnicas para tecnologias, infraestrutura e verificações.
-
-## Critério de conclusão
-
-Outro engenheiro compreende os módulos, suas responsabilidades, dependências e critérios de escolha das tecnologias.
-
-## Aproveitar ou não aplicar
-
-Se a arquitetura atual atende à mudança, registrar a conferência e as partes afetadas. Não redesenhar o sistema inteiro para uma alteração localizada. Divergência real exige decisão registrada.
-
-## Transferência para a próxima atividade
-
-Encaminhar estrutura e restrições à etapa 08 e necessidades operacionais à etapa 09; registrar decisões sem solução no backlog de pesquisa.
-
-## Orientação detalhada
-
-Consultar o capítulo de [engenharia e arquitetura](../praticas/arquitetura.md) para as regras e exemplos aplicáveis. Esse capítulo aprofunda a etapa; ele não cria uma etapa adicional.
-
-Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
-
----
-
-[Voltar ao guia](../../README.md) · [Etapa anterior](06-qualidade-e-riscos.md) · [Próxima etapa](08-tecnologias.md)
+Materiais existentes podem atender à etapa; o número não exige um arquivo novo. Veja [como começar e continuar](../como-usar.md), [como o documento evolui](../saidas-e-documento-do-projeto.md) e o [modelo](../../framework/modelos/projeto.md).

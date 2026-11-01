@@ -1,23 +1,9 @@
-## Problema e resultado
+# Problema e resultado
 
-(O problema concreto e o comportamento/documentação resultante. Descrever para quem não viu a conversa.)
+Esta página explica onde encontrar este assunto. As instruções consumidas pela IA estão em [Problema e resultado](../../framework/modelos/pull-request.md), no framework. Este caminho foi preservado para links e consumidores anteriores; não mantém um segundo contrato editável.
 
-## Vínculos e escopo
+Para usar o processo, envie seu objetivo e o link do [README](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida). A IA recebe ali a ativação, a condução e as saídas de cada etapa. Você não precisa montar um prompt com todas as regras.
 
-(Issue, fontes oficiais, base da PR e dependências. Usar referência simples quando o recorte é parcial; conferir efeitos de fechamento automático antes de usar Closes/Fixes.)
+As entregas revisáveis acumulam conhecimento em `docs/PROJETO.md` **do produto desenvolvido**. Issues organizam o trabalho e suas evidências. O documento não é criado na pasta de documentação deste método. Materiais existentes são aproveitados antes de qualquer substituição.
 
-## Alterações e decisões
-
-(Mudanças relevantes, justificativas, impacto, decisões aprovadas usadas e novas propostas ainda pendentes. Identificar assets e contratos afetados.)
-
-## Verificação
-
-(Critérios de aceite conferidos, fontes/versões de escolhas técnicas relevantes, comandos/condições, resultados e evidências. Separar verificações não executadas e limitações. Para documentação, conferir coerência, links, numeração e fontes.)
-
-## Consolidação e liberação
-
-(Fontes e índices atualizados, estado de integração, necessidade de liberação e autorização pertinente, riscos e retorno quando aplicável. Não apresentar merge como disponibilidade de produção.)
-
-## Continuidade
-
-(Trabalho restante, conflitos, próximo passo e fonte para retomada. Distinguir andamento, decisão, Issue/PR e execução.)
+[Como usar e revisar](../README.md)

@@ -4,6 +4,10 @@
 
 Uma consultoria quer organizar cursos, turmas, materiais, avaliações, progresso e certificados para empresas que treinam seus funcionários. Os cursos podem ensinar um software corporativo; não dependem de marca ou integração específica. Há administrador, instrutor, gestor restrito à própria empresa e aluno.
 
+## Relação com a saída incremental
+
+Este estudo anterior mantém documentos separados para preservar seus IDs e demonstrar aproveitamento de materiais existentes. Para uma adoção nova, o padrão é um único `docs/PROJETO.md` do produto. O índice pode referenciar estes materiais sem duplicar suas regras até uma migração explícita. O [exemplo de ativação e saída única](../ativacao/README.md) demonstra o contrato atual.
+
 ## Escolha um percurso
 
 - **Projeto novo:** [conversa e decisões](conversa-e-decisoes.md), análise do problema e definição do primeiro resultado.

@@ -1,45 +1,17 @@
-# 02. Entender o problema, os usuários e as evidências
+# Como revisar a etapa 02. Entender o problema, os usuários e as evidências
 
-**Objetivo:** Entender se vale construir ou alterar a solução e quais necessidades ela deve atender.
+Esta página é uma explicação para quem acompanha o projeto. A execução é definida no [contrato da etapa 02 no README](../../README.md#etapa-02); a IA recebe ali entradas, ações, pesquisa, condições e saída.
 
-## Entradas
+## O que você recebe
 
-- Inventário e lacunas da etapa 01.
-- Relatos, requisitos, pesquisas, dados de uso, atendimento ou outras evidências já disponíveis.
+Uma seção **02 — Problema, público e evidências** de `docs/PROJETO.md` do produto, apresentada para revisão e acumulada no mesmo documento. Se não houver destino de escrita autorizado, o conteúdo aparece na conversa como rascunho ainda não salvo.
 
-## Como realizar
+O conteúdo específico inclui: Problema e contexto; públicos e necessidades; como resolvem hoje; fontes e achados; alternativas e comparação; hipóteses; viabilidade técnica/econômica/operacional com limites; riscos; conclusão proposta e lacunas.
 
-1. Descrever o problema, quem é afetado, como a pessoa resolve a situação hoje e quais consequências enfrenta.
-2. Revisar evidências existentes antes de encomendar pesquisa nova. Investigar apenas dúvidas relevantes ainda sem resposta.
-3. Comparar soluções e alternativas manuais ou digitais que atendam à mesma necessidade. Registrar contexto, fontes e limites de comparação.
-4. Avaliar viabilidade técnica, econômica e operacional proporcionalmente ao risco. Separar estimativas, restrições, evidências e hipóteses.
-5. Listar o que foi decidido, o que depende de pesquisa ou experimento, o que ficou pendente e o que foi descartado. Não inventar entrevistas, dados ou validação de mercado.
+## Como avaliar
 
-## Pesquisa, comparação e verificação
+Entregar uma análise de discovery revisável. Distinguir pesquisa realizada de entrevista ou experimento ainda necessário; não transformar uma ideia em demanda comprovada.
 
-**Comparar alternativas e evidências.** Examinar como usuários resolvem a necessidade hoje e quais soluções ou canais já existem. Aproveitar pesquisa e dados disponíveis. Uma opinião, persona gerada ou tela de concorrente não comprova necessidade nem validação com usuários.
+Confira se a entrega responde ao objetivo, mostra fontes acessíveis, separa hipótese e decisão e declara o que não foi validado. Você pode corrigir a mesma seção e aprovar seu recorte. Aprovação da análise não comprova implementação ou liberação.
 
-Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
-
-## O que registrar
-
-- Problema, público e necessidades descritos com evidências e fontes.
-- Alternativas existentes, dúvidas, riscos e conclusão sobre seguir, investigar mais ou encerrar o estudo.
-
-## Critério de conclusão
-
-O responsável entende a necessidade e as incertezas relevantes para definir escopo; o documento distingue claramente evidência, hipótese e decisão.
-
-## Aproveitar ou não aplicar
-
-Se pesquisas ou requisitos já explicarem suficientemente o problema, aproveitar essas fontes e atualizar só lacunas. Uma nova pesquisa de mercado ampla não é requisito automático para toda entrega.
-
-## Transferência para a próxima atividade
-
-Entregar à etapa 03 a necessidade, evidências, restrições e dúvidas. Quando ainda não houver base suficiente, registrar a pesquisa ou experimento necessário em Issue.
-
-Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
-
----
-
-[Voltar ao guia](../../README.md) · [Etapa anterior](01-ponto-de-partida.md) · [Próxima etapa](03-objetivo-e-escopo.md)
+Materiais existentes podem atender à etapa; o número não exige um arquivo novo. Veja [como começar e continuar](../como-usar.md), [como o documento evolui](../saidas-e-documento-do-projeto.md) e o [modelo](../../framework/modelos/projeto.md).

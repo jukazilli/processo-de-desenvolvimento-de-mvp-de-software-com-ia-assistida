@@ -1,51 +1,17 @@
-# 10. Organizar o trabalho no GitHub
+# Como revisar a etapa 10. Organizar o trabalho no GitHub
 
-**Objetivo:** Transformar decisões em uma fila de trabalho que pessoas e agentes consigam assumir e verificar.
+Esta página é uma explicação para quem acompanha o projeto. A execução é definida no [contrato da etapa 10 no README](../../README.md#etapa-10); a IA recebe ali entradas, ações, pesquisa, condições e saída.
 
-## Entradas
+## O que você recebe
 
-- Decisões e materiais aprovados, lacunas, pesquisas e plano de preparação.
-- Repositório, Issues existentes, prioridades e permissões.
+Uma seção **10 — Organização do trabalho no GitHub** de `docs/PROJETO.md` do produto, apresentada para revisão e acumulada no mesmo documento. Se não houver destino de escrita autorizado, o conteúdo aparece na conversa como rascunho ainda não salvo.
 
-## Como realizar
+O conteúdo específico inclui: Repositório e estrutura observados; link do backlog em Issues; hierarquia e dependências; prioridades e critérios de Pronto/Feito; modelos de aceite e evidência; limites de acesso; material para importação se necessário.
 
-1. Criar ou reaproveitar Issues. Descrever objetivo, limites, fonte, aceite, dependências, riscos, testes e evidência necessária. Preservar identificadores de trabalho já usados.
-2. Dividir trabalhos grandes em Issues filhas apenas na profundidade útil. Uma hierarquia pode ser iniciativa, funcionalidade e tarefa; estados de tela independentes podem justificar tarefas próprias.
-3. Organizar prioridade e tipo. Distinguir ideia futura, investigação e item selecionado para execução; proposta não equivale a requisito aprovado.
-4. Usar Projects para acompanhamento e, quando útil, agrupar trabalho em ciclos. Confirmar a configuração real antes de alterar campos ou automações.
-5. Definir quando uma Issue está pronta para alguém assumir e o que prova a conclusão no seu escopo. Separar aprovação de design, implementação, testes e liberação.
-6. Manter vínculos entre requisitos, Issues, PRs, código, testes e evidências. Evitar um backlog editável em Markdown em paralelo ao GitHub.
+## Como avaliar
 
-## Operação e modelos
+Entregar índice da organização e links reais para Issues publicadas, ou preparação explicitamente não publicada. Não copiar a fila de tarefas para o documento.
 
-Consultar o [guia de operação no GitHub](../trabalho-no-github.md) para status, hierarquia, prioridades e automações. Usar os [modelos](../modelos/README.md) de trabalho, bug, pesquisa e índice da Issue conforme o caso. O [guia de governança](../governanca.md) define consolidação e conclusão por escopo.
+Confira se a entrega responde ao objetivo, mostra fontes acessíveis, separa hipótese e decisão e declara o que não foi validado. Você pode corrigir a mesma seção e aprovar seu recorte. Aprovação da análise não comprova implementação ou liberação.
 
-## Pesquisa, comparação e verificação
-
-**Conferir a operação real.** Comparar o fluxo necessário à estrutura e às capacidades realmente disponíveis no GitHub. Preferir reaproveitar o que funciona. Verificar vínculos e efeitos de automações; rótulo, fechamento ou merge não comprova a conclusão do escopo.
-
-Aplicar a [comparação de referências](../pesquisa-e-benchmarking.md) e os [controles de verificação com IA](../verificacao-com-ia.md). O registro pode aproveitar uma decisão ou Issue existente; uma pesquisa externa nova só se justifica pela dúvida e pelo impacto.
-
-## O que registrar
-
-- Fila priorizada de Issues com escopo e critérios suficientes.
-- Vínculos e dependências acessíveis e estados operacionais definidos.
-- Itens de preparação e de entrega funcional distinguidos.
-
-## Critério de conclusão
-
-Uma pessoa consegue assumir o próximo item sem reconstruir decisões ou inventar critérios. O status pode ser conferido na fonte definida.
-
-## Aproveitar ou não aplicar
-
-Reutilizar Issues e estrutura já existentes. O Projects é opcional; Issues constituem a fila principal. Sem acesso, preparar material para importação e registrar a limitação sem alegar sincronização.
-
-## Transferência para a próxima atividade
-
-Entregar itens de preparação à etapa 11 e itens de implementação prontos à etapa 12. Pesquisa e refinamento podem continuar nas próprias Issues.
-
-Aplicar as [regras do processo](../regras-do-processo.md). O formato do registro pode ser um documento, Issue ou atualização de material existente, conforme a fonte oficial escolhida para o assunto. O número da etapa não obriga criar um arquivo com esse número.
-
----
-
-[Voltar ao guia](../../README.md) · [Etapa anterior](09-infraestrutura.md) · [Próxima etapa](11-fundacao.md)
+Materiais existentes podem atender à etapa; o número não exige um arquivo novo. Veja [como começar e continuar](../como-usar.md), [como o documento evolui](../saidas-e-documento-do-projeto.md) e o [modelo](../../framework/modelos/projeto.md).
