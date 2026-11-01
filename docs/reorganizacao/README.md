@@ -1,51 +1,42 @@
 # Continuidade da reorganização
 
-> Estado: R4 preparada para revisão, dependente de R3. R5 continua pendente.
+> Estado: R1–R5 preparadas para revisão, em PRs dependentes. Nenhuma integração ou validação por leitores externos foi realizada nesta sequência.
 
-A [Issue #1](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/issues/1) controla o andamento e aponta para as PRs e commits atuais. Este checkpoint guarda contexto de retomada; a fila não é duplicada aqui.
+A [Issue #1](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/issues/1) controla o andamento e aponta para PRs e commits atuais. Este arquivo registra retomada; não duplica a fila.
 
-## Base e cadeia de dependências
+## Base e dependências
 
-- Origem: `12c87840bcb7779e3072eb717814a7bc28c623b8`; README original com blob `a5ac6dc11df6e9f4e5ecacd28173e536d2c476e9`.
-- R1: `667a7668ea1761879ae6e05bb7d4716d7ff74f79`, branch `docs/reorganizacao-r1-inventario`, PR #2.
-- R2: `085fc5f1ea05407e270c79a7fdb68ed45595f3c8`, branch `docs/reorganizacao-r2-etapas`, PR #3.
-- R3: `7622778161b784c36bf7769520536a31b10ba28e`, branch `docs/reorganizacao-r3-governanca`, PR #4.
-- R4: branch `docs/reorganizacao-r4-benchmarking`, criada de R3; sua PR depende da branch de R3 enquanto ela não estiver integrada.
-- No início de R4, as PRs #2–#4 estavam abertas, sem merge, e a main no commit de origem. Conferir novamente antes de integrar ou criar a próxima branch.
+| Entrega | Branch | Commit de referência | PR |
+| --- | --- | --- | --- |
+| Origem | main antes da reorganização | `12c87840bcb7779e3072eb717814a7bc28c623b8` | — |
+| R1 | `docs/reorganizacao-r1-inventario` | `667a7668ea1761879ae6e05bb7d4716d7ff74f79` | #2 |
+| R2 | `docs/reorganizacao-r2-etapas` | `085fc5f1ea05407e270c79a7fdb68ed45595f3c8` | #3 |
+| R3 | `docs/reorganizacao-r3-governanca` | `7622778161b784c36bf7769520536a31b10ba28e` | #4 |
+| R4 | `docs/reorganizacao-r4-benchmarking` | `3032dec85b7ee4ddd3a68e7b5769b931703c732f` | #5 |
+| R5 | `docs/reorganizacao-r5-exemplos` | Consultar head da PR e Issue #1 | Base: branch de R4 |
 
-## O que já foi preparado
+No início de R5, main ainda estava na origem e PRs #2–#5 abertas, em rascunho, sem merge. Conferir novamente antes de integrar. Preservar a ordem R1 → R2 → R3 → R4 → R5 e conferir base/diff das dependentes após cada integração.
 
-R1 fixou a origem, inventariou 29 grupos, 223 títulos e os 15 arquivos do estudo fictício. R2 organizou a entrada e as 14 etapas, preservando regras técnicas detalhadas. R3 definiu governança incremental, operação no GitHub, handoffs e nove modelos reutilizáveis. Ver as reconciliações anteriores para destinos e mudanças justificadas.
+## O que foi preparado
 
-R4 acrescenta:
-
-- [Pesquisa e benchmarking](../pesquisa-e-benchmarking.md), com método, critérios, alternativas, contexto, reaproveitamento e condições para reavaliar.
-- [Verificação com IA](../verificacao-com-ia.md), distinguindo fonte, observação, inferência, estimativa, proposta e execução comprovada.
-- [Catálogo de fontes](../fontes-de-referencia.md), com doze referências primárias, versões ou natureza contínua e limites de aplicação.
-- [Modelo de comparação](../modelos/comparacao.md), ligado ao modelo de pesquisa; o conjunto tem agora dez modelos reutilizáveis e seu índice.
-- Orientações próprias nas 14 etapas, seções adicionais nos cinco capítulos técnicos e vínculos na governança, handoffs, instruções e modelos pertinentes.
-- [Reconciliação R4](reconciliacao-r4.md), incluindo decisões de aplicação e limites.
+- R1: inventário de 29 grupos, 223 títulos e 15 arquivos do estudo fictício; plano, termos, referências e checkpoint.
+- R2: guia de entrada e 14 etapas; cinco capítulos técnicos preservados; regras, glossário e guias de ferramentas.
+- R3: governança incremental, Issues/Projects/PRs, handoffs, modelos e instruções locais para manter o método.
+- R4: pesquisa e benchmarking contextual, verificação com IA, 12 fontes primárias, comparação e orientações nas etapas.
+- R5: exemplo genérico em 19 documentos; entrada por materiais existentes; critérios de 29 Issues e seus IDs; rastreabilidade sem matriz de status concorrente; comparação, handoff, validação e operação ilustrativos. Os 15 caminhos anteriores são encaminhamentos com origem histórica.
 
 ## Conferência e limites
 
-A conferência documental cobre navegação, links relativos, campos das etapas e do registro, YAML dos três templates de Issue e preservação de fontes, IDs e rótulos. As etapas e capítulos técnicos receberam adições identificáveis; o conteúdo anterior é conferido por comparação com R3. Os 15 arquivos do exemplo anterior permanecem sem alteração nesta entrega.
+As reconciliações registram destinos e alterações justificadas. Em R5, etapas, práticas técnicas, regras, governança, modelos e guias de ferramentas não foram alterados frente a R4. Conferências documentais cobrem navegação, formatos, campos e contratos; resultados e contagens estão na Issue/PR desta entrega.
 
-Os percursos documentais consideram reuso de material suficiente, afirmação de API sem versão conferida, preço desconhecido, imagem sem prova de usabilidade e comparação sem experimento executado. O resultado não comprova validação por leitores externos, teste de produto, instalação de habilidades ou configuração externa.
+Não houve implantação, execução de produto, homologação de habilidades, configuração externa ou teste com leitores. Preços, versões, compatibilidade, aprovações e execução do produto fictício não são apresentados como evidências reais. A clareza para a comunidade precisa ser acompanhada com retorno de leitores após revisão e disponibilização.
 
-As fontes primárias foram consultadas para sustentar orientações e limites. Não foi produzida taxa de alucinação do método, ranking universal por etapa, estimativa de preço para um produto concreto ou alegação de conformidade integral com padrões citados.
+## Retomada e integração
 
-## Próximo passo: R5
+1. Ler AGENTS, README, regras, governança, Issue #1, este checkpoint e os documentos afetados.
+2. Conferir branches, comentários, commits, PRs e trabalho não integrado; usar fontes atuais antes de editar.
+3. Revisar [R2](reconciliacao-r2.md), [R3](reconciliacao-r3.md), [R4](reconciliacao-r4.md) e [R5](reconciliacao-r5.md), incluindo critérios do plano e inventário.
+4. Integrar somente com autorização aplicável, conferindo as dependências a cada passo. Nenhuma caixa de integração deve ser marcada apenas porque uma PR foi preparada.
+5. Verificar a versão integrada e registrar revisão externa e problemas concretos em Issues, mantendo o histórico.
 
-1. Ler a Issue #1, AGENTS, README, regras, governança, este checkpoint, o plano, inventário e reconciliações pertinentes.
-2. Conferir PRs, comentários, branches e commits. Preservar a cadeia R1 → R2 → R3 → R4 e trabalho não integrado; após cada integração, conferir a base e o diff da dependente.
-3. Revisar os 15 arquivos do exemplo fictício e seus vínculos, atualizando nomes, numeração, papéis e operação de trabalho para o método novo. Retirar dependências de contexto particular e distinguir decisões ilustrativas de escolhas validadas.
-4. Demonstrar o caminho de projeto novo e o de uma pessoa com requisitos ou outros materiais prontos. Não obrigar descoberta do zero, renomeação de IDs ou uma nova pesquisa suficiente já existente.
-5. Substituir a fila e matriz locais do exemplo por demonstrações de Issues, hierarquia, aceite e vínculos, sem criar backlog operacional concorrente nem inventar Issues reais ou testes executados.
-6. Incorporar exemplos de comparação, decisão e handoff com fontes ou hipóteses identificadas. Um resultado fictício não pode ser apresentado como pesquisa, preço ou validação reais.
-7. Conferir a cobertura de todos os grupos do inventário, termos, campos de compatibilidade, links, instruções, modelos e exemplos. Registrar cada mudança final e suas condições; manter a versão de origem acessível no histórico Git.
-8. Percorrer os cenários de uso e registrar resultados documentais e limitações. Validação por leitores externos só pode ser declarada se realmente ocorrer.
-9. Atualizar checkpoint e Issue, publicar PR revisável e conferir o conteúdo remoto. A preparação das entregas não equivale à integração das PRs nem à configuração de ambientes externos.
-
-## Fontes de retomada
-
-[Plano](plano.md) · [Inventário](inventario.md) · [Reconciliação R2](reconciliacao-r2.md) · [Reconciliação R3](reconciliacao-r3.md) · [Reconciliação R4](reconciliacao-r4.md) · [Referências correntes](../fontes-de-referencia.md) · [Histórico de referências](referencias.md)
+[Plano](plano.md) · [Inventário](inventario.md) · [Fontes correntes](../fontes-de-referencia.md) · [Histórico de fontes](referencias.md) · [Exemplo](../../examples/plataforma-de-cursos/README.md)

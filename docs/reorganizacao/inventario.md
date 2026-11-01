@@ -1,6 +1,6 @@
 # Inventário de preservação
 
-> Estado: origem inventariada e estrutura transferida em R2. Ver os destinos reais e mudanças justificadas na [reconciliação R2](reconciliacao-r2.md). A governança operacional está preparada na [reconciliação R3](reconciliacao-r3.md); benchmarking e verificação estão preparados na [reconciliação R4](reconciliacao-r4.md); exemplos e revisão final continuam em R5.
+> Estado: origem inventariada e estrutura transferida em R2. Ver os destinos reais e mudanças justificadas na [reconciliação R2](reconciliacao-r2.md). A governança operacional está preparada na [reconciliação R3](reconciliacao-r3.md); benchmarking e verificação estão preparados na [reconciliação R4](reconciliacao-r4.md); exemplos e auditoria documental estão preparados na [reconciliação R5](reconciliacao-r5.md).
 
 Origem fixada no commit [`12c87840bcb7779e3072eb717814a7bc28c623b8`](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/tree/12c87840bcb7779e3072eb717814a7bc28c623b8). O README tem 4.181 linhas lógicas, 28 grupos numerados e um grupo técnico principal sem número. Títulos dentro de blocos de exemplo não foram contados como seções reais.
 
@@ -384,3 +384,7 @@ Acrescentar uma linha por unidade revisada nas entregas seguintes. A PR deve apo
 | Grupos principais e subtítulos | Estrutura transferida e regras reconciliadas em R2 | [Destinos reais e justificativas](reconciliacao-r2.md); governança aprofundada em R3; comparação detalhada preparada em R4 |
 | Exemplo fictício e seus documentos | Arquivos e blobs inventariados; revisão de conteúdo pendente | R5; atualização de nomes, sequência e operação do backlog |
 | Validação com leitores externos | Pendente | Registrar participantes, critérios e resultados apenas se ocorrer |
+
+## Situação dos exemplos em R5
+
+Os 15 caminhos de origem foram conferidos e mantidos como encaminhamentos. O estudo atual está em [plataforma de cursos](../../examples/plataforma-de-cursos/README.md), com 19 documentos e cobertura das 14 etapas. A [reconciliação R5](reconciliacao-r5.md) identifica origem, destino, alterações e limites; a origem permanece acessível por commit.

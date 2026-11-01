@@ -4,7 +4,7 @@ Um guia para transformar ideias ou materiais existentes em software compreensív
 
 O processo atende profissionais técnicos que precisam de um caminho claro entre objetivo, requisitos, experiência, arquitetura, tecnologias, infraestrutura e entrega. O produto construído pode ter ou não funcionalidades de IA.
 
-> **Revisão R4:** esta branch contém etapas, governança, modelos, benchmarking e controles de verificação com IA. Os exemplos completos e a revisão final serão tratados em R5. [Acompanhar a reorganização](docs/reorganizacao/README.md).
+> **Revisão R5:** reorganização preparada para revisão em PRs dependentes, ainda sem integração na main. Inclui exemplos atualizados e auditoria documental; validação por leitores externos permanece pendente. [Acompanhar a reorganização](docs/reorganizacao/README.md).
 
 ## Comece pelo que você já tem
 
@@ -66,7 +66,7 @@ Os procedimentos estão nos guias de [governança incremental](docs/governanca.m
 - [Pesquisa e benchmarking](docs/pesquisa-e-benchmarking.md): como comparar referências e validar o que elas não comprovam.
 - [Verificação com IA](docs/verificacao-com-ia.md): fontes, hipóteses, código e execução com evidência.
 - [Fontes de referência](docs/fontes-de-referencia.md): base consultada, versões e limites de uso.
-- [Exemplo da estrutura anterior](examples/ava-omem/README.md): estudo fictício em atualização para R5, com numeração e operação ainda antigas.
+- [Exemplo de plataforma de cursos](examples/plataforma-de-cursos/README.md): materiais existentes, decisões, Issues, comparação, handoff e validação, com limites explícitos.
 
 ## Como avaliar uma entrega
 
