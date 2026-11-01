@@ -1,6 +1,6 @@
 # Continuidade da reorganização
 
-> Estado: R1–R5 preparadas para revisão, em PRs dependentes. Nenhuma integração ou validação por leitores externos foi realizada nesta sequência.
+> Estado: R1–R5 integradas à main pelas PRs #2–#6, por autorização do responsável. Todas as cinco branches foram preservadas. Validação por leitores externos permanece pendente.
 
 A [Issue #1](https://github.com/jukazilli/processo-de-desenvolvimento-de-mvp-de-software-com-ia-assistida/issues/1) controla o andamento e aponta para PRs e commits atuais. Este arquivo registra retomada; não duplica a fila.
 
@@ -31,12 +31,26 @@ As reconciliações registram destinos e alterações justificadas. Em R5, etapa
 
 Não houve implantação, execução de produto, homologação de habilidades, configuração externa ou teste com leitores. Preços, versões, compatibilidade, aprovações e execução do produto fictício não são apresentados como evidências reais. A clareza para a comunidade precisa ser acompanhada com retorno de leitores após revisão e disponibilização.
 
-## Retomada e integração
+## Retomada após integração
 
 1. Ler AGENTS, README, regras, governança, Issue #1, este checkpoint e os documentos afetados.
 2. Conferir branches, comentários, commits, PRs e trabalho não integrado; usar fontes atuais antes de editar.
 3. Revisar [R2](reconciliacao-r2.md), [R3](reconciliacao-r3.md), [R4](reconciliacao-r4.md) e [R5](reconciliacao-r5.md), incluindo critérios do plano e inventário.
-4. Integrar somente com autorização aplicável, conferindo as dependências a cada passo. Nenhuma caixa de integração deve ser marcada apenas porque uma PR foi preparada.
+4. A integração foi autorizada e concluída na ordem R1 → R2 → R3 → R4 → R5. Para mudanças futuras, conferir a base e o escopo antes de integrar.
 5. Verificar a versão integrada e registrar revisão externa e problemas concretos em Issues, mantendo o histórico.
 
 [Plano](plano.md) · [Inventário](inventario.md) · [Fontes correntes](../fontes-de-referencia.md) · [Histórico de fontes](referencias.md) · [Exemplo](../../examples/plataforma-de-cursos/README.md)
+
+## Registro da integração
+
+As cinco PRs foram redirecionadas para main quando necessário e integradas em ordem, com merge commits. A árvore da main após a PR #6 coincidiu integralmente com a árvore revisada de R5 (`c7ceb0ec8eb21d508eb5aa6e38d1ebfae43eb94c`). As cinco branches foram consultadas e permanecem nos commits de referência, sem exclusão ou alteração.
+
+| Entrega | PR | Merge commit |
+| --- | --- | --- |
+| R1 | #2 | `92578f91214abb6c841cdedd311fe93327fcb511` |
+| R2 | #3 | `b632b9cbfbfcb67f143bcb18262769f6b7ecd1b3` |
+| R3 | #4 | `f0d9d9bbfd05dfd7d06a19ea7533e09c80ff81b0` |
+| R4 | #5 | `f509ec4963d1a6420e10b71edaff5785a9a3f879` |
+| R5 | #6 | `a472bee42cdd951cfe30ac24552fc521d5131de1` |
+
+Os registros de preparação acima descrevem a origem e os limites das entregas. Não havia checks de CI configurados nos commits consultados; a verificação foi documental e de integridade Git. Este registro não declara teste de aplicação ou validação externa.

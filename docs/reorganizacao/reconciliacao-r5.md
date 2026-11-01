@@ -1,6 +1,6 @@
 # Reconciliação R5: exemplos e auditoria final
 
-> Estado: preparação documental concluída para revisão. Integração das PRs e validação com leitores externos pendentes. A Issue #1 guarda o estado corrente.
+> Estado: R1–R5 integradas à main pelas PRs #2–#6 por autorização do responsável, com todas as branches preservadas. Validação com leitores externos pendente. A Issue #1 guarda o estado corrente.
 
 ## Base e preservação
 

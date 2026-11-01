@@ -4,7 +4,7 @@ Um guia para transformar ideias ou materiais existentes em software compreensív
 
 O processo atende profissionais técnicos que precisam de um caminho claro entre objetivo, requisitos, experiência, arquitetura, tecnologias, infraestrutura e entrega. O produto construído pode ter ou não funcionalidades de IA.
 
-> **Revisão R5:** reorganização preparada para revisão em PRs dependentes, ainda sem integração na main. Inclui exemplos atualizados e auditoria documental; validação por leitores externos permanece pendente. [Acompanhar a reorganização](docs/reorganizacao/README.md).
+> **Reorganização integrada:** R1–R5 foram incorporadas à main pelas PRs #2–#6, mantendo todas as branches. Inclui exemplos atualizados e auditoria documental; validação por leitores externos permanece pendente. [Acompanhar a reorganização](docs/reorganizacao/README.md).
 
 ## Comece pelo que você já tem
 
